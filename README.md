@@ -163,7 +163,7 @@ The best way to show your idea is to present it with a schematic drawing. It doe
 
 As an example, here we present a design of a gaming device install in toilet of shopping malls. Users can play games, such as angry birds through the touch screen. Advertisement is displayed while idle. 
 
-#########picture!!#############
+# `picture to be added`
 
 ### iii. Define and tailor the process
 
