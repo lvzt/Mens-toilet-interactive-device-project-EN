@@ -8,19 +8,19 @@
 **_Copyright belongs to the author_**
 ***
 # Contents
-# [[Preface|https://github.com/lvzt/Mens-toilet-interactive-device-project-EN/wiki#preface-1]]
-# 1. [[Define the problem|https://github.com/lvzt/Mens-toilet-interactive-device-project-EN/wiki#1-define-the-problem-1]]
-## a) [[Define the project|https://github.com/lvzt/Mens-toilet-interactive-device-project-EN/wiki#a-define-the-project-1]]
-### i. [[Select the project|https://github.com/lvzt/Mens-toilet-interactive-device-project-EN/wiki#i-select-the-project-1]]
-### ii. [[Sketch the concept|https://github.com/lvzt/Mens-toilet-interactive-device-project-EN/wiki#ii-sketch-the-concept-1]]
-### iii. [[Define and tailor the process|https://github.com/lvzt/Mens-toilet-interactive-device-project-EN/wiki#iii-define-and-tailor-the-process-1]]
-### iv. [[Define the owner, the customer and the user|https://github.com/lvzt/Mens-toilet-interactive-device-project-EN/wiki#iv-collect-customer-comments-1]]
-### v. [[Write a mission statement|https://github.com/lvzt/Mens-toilet-interactive-device-project-EN/wiki#v-write-a-mission-statement-1]]
-## b) [[Define the context|https://github.com/lvzt/Mens-toilet-interactive-device-project-EN/wiki#b-define-the-context-1]]
-### i. [[Define the system boundary|https://github.com/lvzt/Mens-toilet-interactive-device-project-EN/wiki#i-define-the-system-boundary-1]]
-### ii. [[Document the context of the system|https://github.com/lvzt/Mens-toilet-interactive-device-project-EN/wiki#ii-document-the-context-of-the-system-1]]
-### iii. [[Study the current context|https://github.com/lvzt/Mens-toilet-interactive-device-project-EN/wiki#iii-study-the-current-context-1]]
-### iv. [[Collect customer comments|https://github.com/lvzt/Mens-toilet-interactive-device-project-EN/wiki#iv-collect-customer-comments-1]]
+# Preface
+# 1. Define the problem
+## a) Define the project
+### i. Select the project
+### ii. Sketch the concept
+### iii. Define and tailor the process
+### iv. Define the owner, the customer and the user
+### v. Write a mission statement
+## b) Define the context
+### i. Define the system boundary
+### ii. Document the context of the system
+### iii. Study the current context
+### iv. Collect customer comments
 ### v. Summarize the project (product) objectives
 ## c) Define functional requirements	
 ### i. Collect use cases	
