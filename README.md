@@ -7,24 +7,24 @@
 **_Copyright belongs to the author_**
 ***
 # Contents
-# Preface
-# 1. Define the problem
-## a) Define the project
-### i. Select the project
-### ii. Sketch the concept
-### iii. Define and tailor the process
-### iv. Define the owner, the customer and the user
-### v. Write a mission statement
-## b) Define the context
-### i. Define the system boundary
-### ii. Document the context of the system
-### iii. Study the current context
-### iv. Collect customer comments
+# [[Preface|https://github.com/lvzt/Mens-toilet-interactive-device-project-EN/wiki#preface-1]]
+# 1. [[Define the problem|https://github.com/lvzt/Mens-toilet-interactive-device-project-EN/wiki#1-define-the-problem-1]]
+## a) [[Define the project|https://github.com/lvzt/Mens-toilet-interactive-device-project-EN/wiki#a-define-the-project-1]]
+### i. [[Select the project|https://github.com/lvzt/Mens-toilet-interactive-device-project-EN/wiki#i-select-the-project-1]]
+### ii. [[Sketch the concept|https://github.com/lvzt/Mens-toilet-interactive-device-project-EN/wiki#ii-sketch-the-concept-1]]
+### iii. [[Define and tailor the process|https://github.com/lvzt/Mens-toilet-interactive-device-project-EN/wiki#iii-define-and-tailor-the-process-1]]
+### iv. [[Define the owner, the customer and the user|https://github.com/lvzt/Mens-toilet-interactive-device-project-EN/wiki#iv-collect-customer-comments-1]]
+### v. [[Write a mission statement|https://github.com/lvzt/Mens-toilet-interactive-device-project-EN/wiki#v-write-a-mission-statement-1]]
+## b) [[Define the context|https://github.com/lvzt/Mens-toilet-interactive-device-project-EN/wiki#b-define-the-context-1]]
+### i. [[Define the system boundary|https://github.com/lvzt/Mens-toilet-interactive-device-project-EN/wiki#i-define-the-system-boundary-1]]
+### ii. [[Document the context of the system|https://github.com/lvzt/Mens-toilet-interactive-device-project-EN/wiki#ii-document-the-context-of-the-system-1]]
+### iii. [[Study the current context|https://github.com/lvzt/Mens-toilet-interactive-device-project-EN/wiki#iii-study-the-current-context-1]]
+### iv. [[Collect customer comments|https://github.com/lvzt/Mens-toilet-interactive-device-project-EN/wiki#iv-collect-customer-comments-1]]
 ### v. Summarize the project (product) objectives
 ## c) Define functional requirements	
 ### i. Collect use cases	
 ### ii. Prioritize use cases	
-### iii. Describe use case behaviors	
+### iii. Describe use case behaviours	
 ### iv. Summarize functional requirements from use cases	
 ### v. Repeat for secondary use cases	
 ### vi. Finalize requirements	
@@ -69,12 +69,12 @@
 ## b) Optimize parameters	
 ### i. Define the product family	
 # 5. Develop the architecture	
-## a) Design the behavior	
+## a) Design the behaviour	
 ### i. Review use cases, context, and functional requirements	
-### ii. Map behaviors to subsystems	
+### ii. Map behaviours to subsystems	
 ### iii. Identify messages, triggers, and interfaces	
 ### iv. Identify system states	
-### v. Set targets for behavior	
+### v. Set targets for behaviour	
 ### vi. Extract functional requirements to originating requirements	
 ### vii. Trace-derived requirements to originating requirements	
 ### viii. The centrality of the operational description template	
@@ -273,7 +273,8 @@ For our project, use cases are listed below,
 * when the toilet is occupied for too long, the game shall cease and a message shall be displayed on the screen to suggest that the user shall finish using the toilet as soon as possible
 * a technician fixes the device
 
-#`picture to be added`
+Picture is made using IBM Rational Rhapsody
+![Use Case](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN/blob/master/Image/01%20UseCase.jpg)
 
 ### ii. Prioritize use cases
 
@@ -319,7 +320,7 @@ The table describing use case behaviours contains five parts: name of use cases,
 
 The flow diagram designed by using IBM Rational Rhapsody is shown below
 
-# `picture to be added`
+![ActivityDiagram_Blackbox](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN/blob/master/Image/02%20ActivityDiagram_Blackbox.jpg)
 
 The details of use cases are illustrated in the background matrix table below
 
@@ -370,7 +371,7 @@ Based on the analysis, system function requirements are listed below
 
 ### v. Repeat for secondary use cases
 
-We have analyzed primary use cases. Secondary use cases, such as the system is overused or malfunctioning shall be analyzed and added in the table.
+We have analysed primary use cases. Secondary use cases, such as the system is overused or malfunctioning shall be analysed and added in the table.
 
 | Use case | Priority |
 | --- | --- |
@@ -396,7 +397,7 @@ Based on the analysis of major and minor use cases, function requirements of the
 | OR3 | The device can detect approaching human being | Body detection |
 | OR4 | The device can display game instructions | Instruction display |
 | OR5 | The device can detect the sound of human being | Sound detection |
-| OR6 | The device can count down to start the game | Counting Down |
+| OR6 | The device can count down to start the game | Countdown |
 | OR7 | The device can detect fluid | Fluid detection |
 | OR8 | The device can interact with the user based on the pressure and direction of the fluid | Pressure and direction detection |
 | OR9 | The device can calculate and display the result of the game | Result display |
@@ -830,7 +831,7 @@ Before looking for creative solutions, first we need to analyze the problems. As
 | OR3 | The device can detect approaching human being | Body detection |
 | OR4 | The device can display game instructions | Instruction display |
 | OR5 | The device can detect the sound of human being | Sound detection |
-| OR6 | The device can count down to start the game | Counting Down |
+| OR6 | The device can count down to start the game | Countdown |
 | OR7 | The device can detect fluid | Fluid detection |
 | OR8 | The device can interact with the user based on the pressure and direction of the fluid | Pressure and direction detection |
 | OR9 | The device can calculate and display the result of the game | Result display |
@@ -921,7 +922,7 @@ We list some of the combinations in the table below.
 
 ### i. Combine concept fragments	
 
-For our project, Detect human approaching(2 solutions) * Detect sound(2 solutions) * Detect fluid direction * Detect fluid(3 solutions) * Display(1 solution) * Processor(2 solutions) Game(3 solutions) = 144 solutions. 
+For our project, Detect human approaching(2 solutions) * Detect sound(2 solutions) * Detect fluid direction * Detect fluid(3 solutions) * Display(1 solution) * Processor(2 solutions) * Game(3 solutions) = 144 solutions. 
 
 ### ii. Generate integrated concepts	
 
@@ -1008,10 +1009,9 @@ When qualifying either of the two conditions, the product attribute can be negle
 
 * the product attribute is different in different candidate solutions, but it is strongly related to other product attributes.
 
-Below arethe product attributes we have developed previously. 
+Below are the product attributes we have developed previously. 
 
 Product objective: Waterproof, Easiness to manufacture, Sensitivity during the game, Game is fun to play, Display alert message to suggest that the user should leave, Pregame sensitivity, Postgame sensitivity, Easiness to clean, Modification to the existing structure, Easiness to maintain, Robustness against cleaning agents, Automatically shot down in the night / turn on in the morning
-
 
 First we remove the product objectives that are not related to the design, such as the game is fun to play (it is the objective of game designing, which shall be considered later), Display alert message to suggest that the user should leave (this is strongly related to other functions such as the sensitivity of the device), combine the before and post game sensitivity as one - game sensitivity, combine auto-switch off during night and auto-switch on during the day as one - energy saving. Energy saving is removed because it is not among the primary objectives. It will be added at a later stage. After the modification, the remaining product objectives are,
 
@@ -1023,36 +1023,70 @@ First we remove the product objectives that are not related to the design, such 
 * Robustness against cleaning agents
 * Easiness to maintain 
 
-
-
-
 ### iii. Screen the alternatives	
 
-As we have many different solutions for the final design, we are in the selection phase. The selection is based on the value assignment and comparing method. First an arbitrary solution is chosen as reference, with its value setting as 0. Solutions are marked as + if they are better than reference, - if they are worse, 0 if they are comparable with the reference. The result for our project is presented in the table below
+As we have many different solutions for the final design, we are in the selection phase. The selection is based on the value assignment and comparing method. First an arbitrary solution is chosen as reference, with its value set to 0. Solutions that are better than reference marked with +; worse solutions marked with -; solutions marked with 0 if it is comparable with the reference. The result for our project is presented in the table below. Here we cut off two elements: sound detector and LCD, because they are the only candidates. 
 
-# `table to be added`
+| Attribute name | Ultrasonic detector (reference) | Infrared detector | All shapes of 2D multi-points detectors (reference) | Cubic shape multi-points detector | Liquid pressure detector (reference)| Liquid volume detector  | Transmission speed sensor | Mini PC (reference) | PC + embedded system | C# | Unity3D | Python |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Waterproof | | | 0 | - | | | | | | | | |
+| Easiness to manufacture | | | 0 | - | | | | | | | | |
+| During game sensitivity | | | 0 | + | 0 | - | - | 0 | 0 | 0 | - | + |
+| Pregame sensitivity | 0 | 0 | | | | | | | | | | |
+| Modification to the existing structure | | | 0 | + | | | | | | | | |
+| Easiness to clean | | | 0 | - | | | | | | | | |
+| Robustness against cleaning agents | | | 0 | - | | | | | | | | |
+| Easiness to maintain | | | 0 | - | | | | 0 | - | | | |
 
-From the analysis we conclude that, the performance of ultrasonic and infrared detectors are comparable; flat multiple-points detector is better in the following aspects: waterproof, ease of manufacture, ease of cleaning, robustness, but is less sensitive and less easy to maintain comparing to the ball shape detector; over all liquid pressure sensor are better than liquid speed detector and liquid volume detector; mini PC is better to maintain comparing to Arduino + PC; games designed by using Unity3D has a better quality, but usually they require more resource and hence less sensitive, therefore C# or Python will be selected in this stage. 
+From the above analysis we conclude that, the performance of ultrasonic and infrared detectors are comparable; flat multiple-points detector is better in the following aspects: waterproof, ease of manufacture, ease of cleaning, robustness, but it is less sensitive and less easy to maintain comparing to the ball shape detector; liquid pressure sensor are better than liquid speed detector and liquid volume detector; mini PC is better to maintain comparing to Arduino + PC; games designed by using Unity3D has a better quality, but usually they require more resource and hence less sensitive, therefore C# or Python will be selected in this stage. 
 
-### iv. Rate alternatives	
+### iv. Rate alternatives
 
-After the rough selection in the previous step, now we will perform more elaborated analysis. Here we evaluate the alternatives with a score system: score 5 indicates that the alternative is much better than the reference, score 3 represents the same, score 1 indicates that the alternative is much worse than the reference. The results are presented in the table below
+After the rough selection in the previous step, now we will perform more elaborated analysis. We evaluate the candidates with a score system: score 5 indicates that the alternative candidate is much better than the reference, score 3 represents the same, score 1 indicates that the alternative candidate is much worse than the reference. The results are presented in the table below, 
 
-# `table to be added`
+| Attribute name | Ultrasonic detector (reference) | Infrared detector | All shapes of 2D multi-points detectors (reference) | Cubic shape multi-points detector | Mini PC (reference) | PC + embedded system | C# | Python |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Waterproof | | | 3 | 2 | | | | |
+| Easiness to manufacture | | | 3 | 2 | | | | |
+| During game sensitivity | | | 3 | 4 | 3 | 3 | 3 | 3 | 4 |
+| Pregame sensitivity | 3 | 3 | | | | | | |
+| Modification to the existing structure | | | 3 | 4 | | | | |
+| Easiness to clean | | | 3 | 2 | | | | |
+| Robustness against cleaning agents | | | 3 | 2 | | | | |
+| Easiness to maintain | | | 3 | 2 | | | | |
 
 ### v. Weigh the attributes	
 
-First we copy the results from the second chapter to here. As we can see, the sum of the factors does not equal to 100%, because they are just part of the over all project targets. We adjust the results a bit by combining the during game sensitivity and after game sensitivity to one subject, game sensitivity. 
+First we copy the results from the second chapter to here. As we can see, the sum of the factors does not equal to 100%, because they are just part of the over all project targets. 
+
+Here we adjust the results a bit by combining the during game sensitivity and after game sensitivity to one subject, game sensitivity. 
+
+| Waterproof | Easiness to manufacture | Game sensitivity | Pregame sensitivity | Easiness to clean | Modification to the existing structure | Easiness to maintain | Robustness against cleaning agents |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 0.2 | 0.1 | 0.175 | 0.075 | 0.06 | 0.05 | 0.05 | 0.04 |
 
 ### vi. Calculate weight and sort	
 
-Finally, we place the weighed attributes and alternatives in one table to form a matrix, evaluate every alternatives according to each attributes, which results in the final scores of each alternative. The advantage of using this matrix is that it facilitates the discussion among team members. What's more, the document records the process of decision making, which can be displayed to the outsiders. The matrix after evaluation is shown below
+Finally, we place the weighed attributes and candidates in one table and evaluate every candidates according to each attributes. The advantage of using this matrix is that it facilitates the discussion among team members. What's more, the document records the process of decision making, which can be displayed to the outsiders. The matrix after evaluation is shown below
 
-# `table to be added`
-
-After analyzing the above matrix, we conclude that, we will choose the flat multi-point detector over the ball shape multi-point detector; choosing between ultra-sonic and infrared detector requires more analysis, or maybe we will try them both; choosing between mini pc and Arduino + pc also requires more analysis; we choose python over C# because python is more flexible. 
+| Attribute name | Weight | Ultrasonic detector (reference) | | Infrared detector | | All shapes of 2D multi-points detectors (reference) | | Cubic shape multi-points detector | | Mini PC (reference) | | PC + embedded system | | C# (reference) | | Python | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | Score | Weighed score | Score | Weighed score | Score | Weighed score | Score | Weighed score | Score | Weighed score | Score | Weighed score | Score | Weighed score | Score | Weighed score |
+| Waterproof | 0.2 | | | | | 3 | 0.6 | 2 | 0.4 | | | | | | | | |
+| Easiness to manufacture | 0.1 | | | | | 3 | 0.3 | 2 | 0.2 | | | | | | | | |
+| Game sensitivity | 0.175 | | | | | 3 | 0.525 | 4 | 0.7 | 3 | 0.525 | 3 | 0.525 | 3 | 0.525 | 4 | 0.7 | 
+| Pregame sensitivity | 0.075 | 3 | 0.225 | 3 | 0.225 | | | | | | | | | | | | |
+| Easiness to clean | 0.06 | | | | | 3 | 0.18 | 2 | 0.12 | | | | | | | | |
+| Modification to the existing structure | 0.05 | | | | | 3 | 0.15 | 4 | 0.2 | | | | | | | | |
+| Easiness to maintain | 0.05 | | | | | 3 | 0.15 | 2 | 0.1 | | | | | | | | |
+| Robustness against cleaning agents | 0.04 | | | | | 3 | 0.12 | 2 | 0.08 | | | | | | | | |
+| Sum | | | 0.225 | | 0.225 | | 2.025 | | 1.8 | | 0.525 | | 0.525 | | 0.525 | | 0.7 |
+| Order | | | 1 | | 1 | | 1 | | 2 | | 1 | | 1 | | 1 | | 1 |
+| Continue? | | | Yes | | Yes | | Yes | | No | | Yes | | Yes | | No | | Yes |
 
 ### vii. Score and select alternatives	
+
+After analyzing the above matrix, we conclude that, we will choose the flat multi-point detector over the ball shape multi-point detector; choosing between ultra-sonic and infrared detector requires more analysis, or maybe we will try them both; choosing between mini pc and Arduino + pc also requires more analysis; we choose python over C# because python is more flexible. 
 
 # vi and vii need to be fixed!!
 
@@ -1060,43 +1094,98 @@ After analyzing the above matrix, we conclude that, we will choose the flat mult
 
 Usually this step is performed in the design revision circle. Because our project here is relatively simple, instead of using discrete analysis like before, we analyze the alternatives continuously, i.e., for each alternative we study the design for every engineering characteristics and optimize the parameters. In chapter 2 we already worked out the technical requirements,
 
-# `table to be added`
+| | |
+| --- | --- |
+| OR13 | The area of the waterproof material should not exceed 80mm<sup>2</sup> |
+| OR14 | The effective area of the detectors should be at least 120mm<sup>2</sup> |
+| OR15 | The maximum number of detectors should be at least 5 |
+| OR16 | The maximum sound volume required for activating the device should be at most 40dB |
+| OR17 | The maximum time it takes for starting the game should be no more than 3 seconds |
+| OR18 | The time it takes to display the result of the game should be at most 0.1 second | 
+| OR19 | The times a player willing to play the same game is 3 | 
+| OR20 | The material around the region of detectors should be plastic |
+| OR21 | The time between displaying the result of the game and displaying the alarm message to indicate the user should leave should be 8 seconds |
+| OR22 | The integrated components of the device should be no more than 3 boxes |
+| OR23 | The device should automatically switch off at 1 AM and turn on at 7 AM |
 
-From the house of quality we get the system variable and place them together with the subsystem variable in the new house of quality matrix. The new matrix has the same column vector as the old one, but the row vector consist of all the alternatives, instead of the technical performance measure. Same as before, √√ represents the two elements are strongly positively related, √ positively related, X negatively related, XX strongly negatively related. For our project, as the selection sound detector has been fixed with no other alternatives, the requirements 16, 21 and 23 are removed from the knew house of quality matrix. The results are in the table below
 
-# `table to be added` 
+From the house of quality we get the system variable and place them together with the subsystem variable in the new house of quality matrix. The new matrix has the same column vector as the old one, but the row vector consist of all the alternatives, instead of the technical performance measure. Same as before, √√ represents the two elements are strongly positively related, √ positively related, X negatively related, XX strongly negatively related. For our project, as the selection of sound detector has been fixed with no other alternatives, the requirements 16 are removed from the new house of quality matrix, so as 21 and 23 . The results are in the table below
 
-Now is time to discuss with experts extensively on specific designs, such as 3D modeling, finite element method analysis, estimating the amount of code to be written by developers. When the prospected value during design (the design variable) is lager than the value of requirement, the difference between the two is called design freedom. Therefore, when setting one design variable, other design variables can be adjusted correspondingly according to time, cost etc. What's more, it's necessary to optimize different design variables according to certain constraints or limits. For some demos can be built to test the viability and extent of the design.
+| | | Ultrasonic detector | Infrared detector | All shapes of 2D multi-points detectors | Mini PC | PC + embedded system | Python | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | Trend | &#x2191; | &#x2191; | &#x2191; | &#x2191; | &#x2191; | &#x2191; | Unit | 
+| Waterproof material and related processing techniques | 70% | | | | | | | mm<sup>2</sup> |
+| The effective area of the detectors | 96% | | | XX | | | | mm<sup>2</sup> |
+| The maximum amount of detectors required | 56% | &#x2713;&#x2713; | &#x2713;&#x2713; | &#x2713;&#x2713; | | | | Piece |
+|  The maximum time it takes for starting the game | 15% | | | &#x2713;&#x2713; | &#x2713;&#x2713; | &#x2713;&#x2713; | &#x2713;&#x2713; | Second |
+| The time it takes to display the result of the game | 35% | | | | &#x2713;&#x2713; | &#x2713;&#x2713; | &#x2713;&#x2713; | Second |
+| The times a player willing to play the same game | 20% |  | | | &#x2713;&#x2713; | &#x2713;&#x2713; | &#x2713;&#x2713; | Times |
+| The choices of materials around the region of detectors | 54% | | | &#x2713;&#x2713; | | | | |
+| The integration of all the components of the device | 30% | &#x2713; | &#x2713; | | &#x2713; | X | | Box |
+| Unit for measurement | | Piece | Piece | Piece | Set | Set | Line | |
+
+Now is time to discuss with experts in the team extensively on specific designs, such as 3D modeling, finite element method analysis, estimating the amount of code to be written etc. When the amount of design variable is lager than the amount of requirements, the difference between the two is called design freedom. When setting one design variable, other design variables can be adjusted correspondingly according to time, cost etc. Sometimes, it's necessary to optimize different design variables according to certain constraints or limits. For some designs demos can be built to test their viability.
 
 For our project, comparing to a mini PC, a normal PC has better performance. In the case of designing the game using an advanced game engine, normal PC is a better choice. On the other hand, there are many highly developed python libraries for gaming development. 
 
 ### i. Define the product family	
 
-Now we have collected many alternatives. Through the previous optimization steps, we get different combinations which composite the product family. Different product in the product family suits different market. They are all originated from the same platform, share many components, facilities and even producing process. For our product the setup can provide simple games for children, or more complicated games for adults.
+Now we have collected many alternatives. Through the previous optimization steps, we get different combinations which serves different market. All the combinations composite the product family. They are developed from the same prototype, share many components, facilities and even producing process. For our product the device can provide simple games for children, and more complicated games for adults.
 
 # 5. Develop the architecture	
 
-For a simple project whole designing task can be finished by one person. While for a complicated project with multiple people or even multiple teams involved in the task, communication between different parties is more than important. This chapter will focus on describing the system language, i.e., separate the product into subsystem and comprehensively describe the relation between them. The most important part is the interface of the subsystems. Here we use the behaviour-function-structure method. 
+For a simple project whole designing task can be finished by one person. While for a complicated project with multiple people or even multiple teams involved in the task, communication between different parties is more than important. This chapter will focus on describing the system language, i.e., separate the product into subsystem and comprehensively describe the relation between them. The most important part is **the interface** of the subsystems. Here we use the behaviour-function-structure method. 
 
-## a) Design the behavior	
+## a) Design the behaviour	
 
-The analysis performed previously is mainly focused on the system structure. Now we will describe the system behavior, because function analysis, control and verification are all rely on the system behavior. 
+The analysis performed previously is mainly focused on the system structure. Now we will describe the system behaviour. Function analysis, control and verification are all based on system behaviour. 
 
 ### i. Review use cases, context, and functional requirements	
 
 The use cases summarized in the first chapter is presented below
 
-# `table to be added`
+| Use case | Priority |
+| --- | --- |
+| Primary use case | |
+| An adult male plays the game | High |
+| A technician installs the device on the toilet | Low |
+| A cleaner cleans the toilet | Low |
+| A shopping mall staff displays advertisements | Medium |
+| When the toilet is occupied for too long, the game shall cease and a message shall be displayed on the screen to suggest that the user shall finish using the toilet as soon as possible | High |
+| A technician fixes the device | Medium |
+| Secondary use case | |
+| The system switches to a power saving mode during night | High |
+| The system can wake up automatically in the morning | High |
 
 The context has also been analyzed in the first chapter, which contains the relation between the system and the context, the system range, and the interface between the system and context. The table is presented below
 
-# `table to be added`
+| Is related to | Adult male | Gaming device | Body detector | Sound detector | Fluid detector | Result of the game |
+| --- | --- | --- | --- | --- | --- | --- |
+| Adult male | | use | is detected by | is detected by | is detected by | sees |
+| Gaming device | `is used by` | | `includes` | `includes` | `includes` | `includes` |
+| Body detector | `detects` | `is inside` | | | | |
+| Sound detector | `detects` | `is inside` | | | | |
+| Fluid detector | `detects` | `is inside` | | | | |
+| Result of the game | `is seen by` | `is inside` | | | | |
 
-What's more, in the first chapter we have worked out the functional requirements too. The table is presented below. Note that it is necessary to satisfy the requirements, but that is not adequate. Even if all the requirements are satisfied, it is not guaranteed that the project will be successful. It's important to combine all the features, run the system and check its behavior. 
+What's more, in the first chapter we have worked out the functional requirements too. The table is presented below. Note that it is necessary to satisfy the requirements, but that is not adequate. Even if all the requirements are satisfied, it is not guaranteed that the project will be successful. It's important to combine all the features, run the system and check its behaviour. 
 
-# `table to be added`
+| No. | Requirements |
+| --- | --- | 
+| OR1 | The device can display ad when idling |
+| OR2 | The device can receive the ad to be displayed |
+| OR3 | The device can detect approaching human being | 
+| OR4 | The device can display game instructions | 
+| OR5 | The device can detect the sound of human being | 
+| OR6 | The device can count down to start the game | 
+| OR7 | The device can detect fluid | 
+| OR8 | The device can interact with the user based on the pressure and direction of the fluid | 
+| OR9 | The device can calculate and display the result of the game | 
+| OR10 | The device can display the message to suggest that the user shall finish using the toilet as soon as possible |
+| <s> OR11 </s> | <s> The system switches to a power saving mode during night </s> | 
+| <s> OR12 </s> | <s> The system can wake up automatically in the morning  </s> |
 
-Through the analysis of the house of quality we obtained technical performance measures. They are neglected here, because they have no influence on the description of system behavior. In chapter three we have figured out all the subsystems, which are listed below,
+Through the analysis of the house of quality we obtained technical performance measures. They are neglected here, because they have no influence on the description of system behaviour. In chapter three we have figured out all the subsystems, which are listed below,
 
 - Body detection
 - Sound detection
@@ -1107,179 +1196,627 @@ Through the analysis of the house of quality we obtained technical performance m
 
 Till now we have gathered all we need for the next step.
 
-### ii. Map behaviors to subsystems	
+### ii. Map behaviours to subsystems	
 
-The first step of behavior design is to describe behaviors at the system level. As we have analyzed behaviors in chapter 1, here we perform more detailed analysis. We use running description template to describe the system behavior, from the beginning of the interaction between the user and the device to the end state of the system. The input information generate from the user is listed on the left of the template, the response of the device system is on the right. If the interaction process involves more than one subsystem, it will be analyzed one by one according to the signal flow. The template contains three parts: initial state, behavior analysis, end state. 
+The first step of behaviour design is to describe behaviours at the system level. As we have analyzed behaviours in chapter 1, here we perform more detailed analysis. We use running description template to describe the system behaviour. It follows a single thread, starting from the beginning of the interaction between the user and the device to the end state of the system. The the user behaviour, which generates input information, is listed on the left of the template; the response of the system is on the right. If the interaction process involves more than one subsystem, it will be analyzed one by one according to the signal flow. The template contains three parts: initial state, behaviour analysis, end state. 
 
-# `table to be added`
+**An adult male plays the game**
+
+**Initial state: the system is idle and displays ad**
+
+**Interactive Urinal Device**
+
+| An adult male will use the toilet (operator) | Body detection subsystem | Sound detection subsystem | Liquid detection subsystem | Data processing subsystem | Game subsystem | Display subsystem |
+| --- | --- | --- | --- | --- | --- | --- |
+| The adult male approaches the toilet | | | | | | |
+| | The system detects human being nearby | | | | | |
+| | | | | The system processes the signal | | |
+| | | | | | | The system displays instructions |
+| The adult male confirms readiness by sound | | | | | | |
+| | | The system detects the sound | | | | |
+| | | | | The system processes the sound signal | | |
+| | | | | | | The system counts down to start the game |
+| The adult male starts to use the toilet | | | | | | |
+| | | | The system detects fluid | | | |
+| | | | | The system processes the fluid pressure signal | | |
+| | | | | | The system performs the calculation based on the signal  | |
+| | | | | | | The system reacts to the adult male through the game based on the calculation |
+| | | | The system detects the direction of the fluid | | | |
+| | | | | The system processes the fluid direction signal | | |
+| | | | | | The system performs the calculation based on the signal  | |
+| | | | | | | The system reacts to the adult male through the game based on the calculation |
+| The adult male finishes using the toilet | | | | | | |
+| | | | | The system processes the fluid pressure signal | | |
+| | | | | | The system performs the calculation based on the signal  | |
+| | | | | | | The system reacts to the adult male through the game based on the calculation |
+| The adult male keeps occupying the toilet | | | | | | |
+| | The system detects the same person occupying the toilet | | | | | |
+| | | | | The system processes the signal | | |
+| | | | | | | The system displays messages indicating the adult male to leave |
+
+**End state: the system is idle and displays ad** 
 
 ### iii. Identify messages, triggers, and interfaces	
+Different subsystems provide different functions, which are triggered by different activities or events. Therefore we insert interfaces (between a subsystem and the context, or different subsystems) in the above template. All the interfaces are marked as grey in the template. For electronic and mechanic systems or software, it's easy to identify interfaces, as they need to response to signals, messages or function calls. The updated template is presented below,
 
-Different subsystems are response for different functions, which are triggered by different activities or events, therefore we add interfaces (between a subsystem and the context, or different subsystems) in the above template. All the interfaces are marked as grey in the template. The updated template is presented below.
+| An adult male will use the toilet (operator) | Body detection subsystem | Sound detection subsystem | Liquid detection subsystem | Data processing subsystem | Game subsystem | Display subsystem |
+| --- | --- | --- | --- | --- | --- | --- |
+| The adult male approaches the toilet | | | | | | |
+| `Event signal (Signal of human body)` | | | | | | |
+| | The system detects human being nearby | | | | | |
+| | `Event signal (Human body detection signal)` | | | | | |
+| | | | | The system processes the signal | | |
+| | | | | `Call (play)` | | |
+| | | | | | | The system displays instructions |
+| | | | | | | _**The system can display advertisement after idling for a while**_ |
+| | | | | | | `Call (return)` |
+| The adult male confirms readiness by sound | | | | | | |
+| `Event signal (Sound)` | | | | | | |
+| | | The system detects the sound | | | | |
+| | | `Event signal (Sound detection signal)` | | | | |
+| | | | | The system processes the sound signal | | |
+| | | | | `Call (display)` | | |
+| | | | | | | The system counts down to start the game |
+| | | | | | | _**The system can display advertisement again if no fluid detected in the end of countdown**_ |
+| | | | | | | `Call (back)` |
+| The adult male starts to use the toilet | | | | | | |
+| `Event signal (Fluid)` | | | | | | |
+| | | | The system detects fluid | | | |
+| | | | `Event signal (Fluid detection signal)` | | | |
+| | | | | The system processes the fluid pressure signal | | |
+| | | | | `Call (game)` | | |
+| | | | | | The system performs the calculation based on the signal  | |
+| | | | | | `Call (calculation, display)`  | |
+| | | | | | | The system reacts to the adult male through the game based on the calculation |
+| | | | The system detects the direction of the fluid | | | |
+| | | | `Event signal (Fluid direction signal)` | | | |
+| | | | | The system processes the fluid direction signal | | |
+| | | | | `Call (game)` | | |
+| | | | | | The system performs the calculation based on the signal  | |
+| | | | | | `Call (calculation, display)`  | |
+| | | | | | | The system reacts to the adult male through the game based on the calculation |
+| The adult male finishes using the toilet | | | | | | |
+| `Event signal (Fluid)` | | | | | | |
+| | | | The system detects fluid | | | |
+| | | | `Event signal (Fluid detection signal)` | | | |
+| | | | | The system processes the fluid pressure signal | | |
+| | | | | `Call (game)` | | |
+| | | | | | The system performs the calculation based on the signal  | |
+| | | | | | `Call (calculation, display)`  | |
+| | | | | | | The system displays the result of the game |
+| | | | | | | `Call (back)` |
+| The adult male keeps occupying the toilet | | | | | | |
+| `Event signal (not leaving)` | | | | | | |
+| | The system detects the same person occupying the toilet | | | | | |
+| | `Event signal (same person)` | | | | | |
+| | | | | The system processes the signal | | |
+| | | | | `Call (display)` | | |
+| | | | | | | The system displays messages indicating the adult male to leave |
+| | | | | | | `Call (back)` |
 
-# `table to be added`
-
-To prevent the interaction device fall in deadlock, two extra functions are added in the above table, which are marked yellow:
+To prevent the interaction device fall into deadlock, two extra functions are added in the above table, which are marked yellow:
 * After repeatedly displaying the hint message without getting any response, the interaction device will quit the current process and show the advertisement.
 * If no liquid is detected in a certain time span, the interaction device will quit the current process and show the advertisement.
 
 Below is a graph produced using IBM Rational Rhapsody,
 
-# `graph to be added`
+![ActivityDiagram_Whitebox](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN/blob/master/Image/03%20ActivityDiagram_Whitebox.jpg)
 
 More related graphs are in the supplementary 
 
 ### iv. Identify system states	
 
-Another way to analyze system behavior is to identify system states. When transfering from one state to another, we keep track how the system changes. This step is useful for finding unstable states during the process. The result is shown in the table below
+Another way to analyse the system behaviour is to identify system states. When switching from one state to another, we keep track of how the system changes. This step is helpful for finding unstable states during the process. The result is shown in the table below
 
-# `table to be added`
+| An adult male will use the toilet (operator) | Body detection subsystem | Sound detection subsystem | Liquid detection subsystem | Data processing subsystem | Game subsystem | Display subsystem | System status |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| The adult male approaches the toilet | | | | | | | Displaying ad while waiting for people coming close |
+| `Event signal (Signal of human body)` | | | | | | | |
+| | The system detects human being nearby | | | | | | Detecting human being nearby|
+| | `Event signal (Human body detection signal)` | | | | | | |
+| | | | | The system processes the signal | | | Signal processing |
+| | | | | `Call (play)` | | | |
+| | | | | | | The system displays instructions | Displaying instruction |
+| | | | | | | _**The system can display advertisement after idling for a while**_ | |
+| | | | | | | `Call (return)` | |
+| The adult male confirms readiness by sound | | | | | | | |
+| `Event signal (Sound)` | | | | | | | |
+| | | The system detects the sound | | | | | Detecting human voice |
+| | | `Event signal (Sound detection signal)` | | | | | |
+| | | | | The system processes the sound signal | | | Signal processing |
+| | | | | `Call (display)` | | | |
+| | | | | | | The system counts down to start the game | Countdown |
+| | | | | | | _**The system can display advertisement again if no fluid detected in the end of countdown**_ | |
+| | | | | | | `Call (back)` | |
+| The adult male starts to use the toilet | | | | | | | |
+| `Event signal (Fluid)` | | | | | | | |
+| | | | The system detects fluid | | | | Detecting fluid |
+| | | | `Event signal (Fluid detection signal)` | | | | |
+| | | | | The system processes the fluid pressure signal | | | Signal processing |
+| | | | | `Call (game)` | | | |
+| | | | | | The system performs the calculation based on the signal  | | Performing calculation |
+| | | | | | `Call (calculation, display)`  | | |
+| | | | | | | The system reacts to the adult male through the game based on the calculation | Displaying the reaction on the screen |
+| | | | The system detects the direction of the fluid | | | | Detecting fluid |
+| | | | `Event signal (Fluid direction signal)` | | | | |
+| | | | | The system processes the fluid direction signal | | | Signal processing |
+| | | | | `Call (game)` | | | |
+| | | | | | The system performs the calculation based on the signal  | | Performing calculation |
+| | | | | | `Call (calculation, display)`  | | |
+| | | | | | | The system reacts to the adult male through the game based on the calculation | Displaying reaction |
+| The adult male finishes using the toilet | | | | | | | |
+| `Event signal (Fluid)` | | | | | | | |
+| | | | The system detects fluid | | | | Detecting fluid |
+| | | | `Event signal (Fluid detection signal)` | | | | |
+| | | | | The system processes the fluid pressure signal | | | Signal processing |
+| | | | | `Call (game)` | | | |
+| | | | | | The system performs the calculation based on the signal  | | Performing calculation |
+| | | | | | `Call (calculation, display)`  | | |
+| | | | | | | The system reacts to the adult male through the game based on the calculation | Displaying reaction |
+| | | | | | | `Call (back)` | |
+| The adult male keeps occupying the toilet | | | | | | | Detecting user not leaving |
+| `Event signal (not leaving)` | | | | | | | |
+| | The system detects the same person occupying the toilet | | | | | | Identifying the same user |
+| | `Event signal (same person)` | | | | | | |
+| | | | | The system processes the signal | | | Processing signal |
+| | | | | `Call (display)` | | | |
+| | | | | | | The system displays messages indicating the adult male to leave | Displaying ending message |
+| | | | | | | `Call (back)` | |
 
 The corresponding graph made by using IBM Rational Rhapsody is presented below
 
 # `graph to be added`
 
-### v. Set targets for behavior	
+### v. Set targets for behaviour	
 
-The template is also useful for collecting other information, for example time related events or actions. It is updated and shown below
+The template is also useful for collecting other information, such as time related events or actions. It is updated and shown below
 
-# `table to be added`
+| An adult male will use the toilet (operator) | Body detection subsystem | Sound detection subsystem | Liquid detection subsystem | Data processing subsystem | Game subsystem | Display subsystem | System status | Time |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| The adult male approaches the toilet | | | | | | | Displaying ad while waiting for people coming close | |
+| `Event signal (Signal of human body)` | | | | | | | | |
+| | The system detects human being nearby | | | | | | Detecting human being nearby| 1-3 seconds |
+| | `Event signal (Human body detection signal)` | | | | | | | |
+| | | | | The system processes the signal | | | Signal processing | |
+| | | | | `Call (play)` | | | | |
+| | | | | | | The system displays instructions | Displaying instruction | |
+| | | | | | | _**The system can display advertisement after idling for a while**_ | | 5 seconds |
+| | | | | | | `Call (return)` | | |
+| The adult male confirms readiness by sound | | | | | | | | |
+| `Event signal (Sound)` | | | | | | | | |
+| | | The system detects the sound | | | | | Detecting human voice | 1-3 seconds |
+| | | `Event signal (Sound detection signal)` | | | | | | |
+| | | | | The system processes the sound signal | | | Signal processing | |
+| | | | | `Call (display)` | | | | |
+| | | | | | | The system counts down to start the game | Countdown | |
+| | | | | | | _**The system can display advertisement again if no fluid detected in the end of countdown**_ | | 5 seconds |
+| | | | | | | `Call (back)` | | |
+| The adult male starts to use the toilet | | | | | | | | |
+| `Event signal (Fluid)` | | | | | | | | |
+| | | | The system detects fluid | | | | Detecting fluid | 0.5 second |
+| | | | `Event signal (Fluid detection signal)` | | | | | |
+| | | | | The system processes the fluid pressure signal | | | Signal processing | |
+| | | | | `Call (game)` | | | | |
+| | | | | | The system performs the calculation based on the signal  | | Performing calculation | |
+| | | | | | `Call (calculation, display)`  | | | |
+| | | | | | | The system reacts to the adult male through the game based on the calculation | Displaying the reaction on the screen | |
+| | | | The system detects the direction of the fluid | | | | Detecting fluid | 0.5 second |
+| | | | `Event signal (Fluid direction signal)` | | | | | |
+| | | | | The system processes the fluid direction signal | | | Signal processing | |
+| | | | | `Call (game)` | | | | |
+| | | | | | The system performs the calculation based on the signal  | | Performing calculation | |
+| | | | | | `Call (calculation, display)`  | | | |
+| | | | | | | The system reacts to the adult male through the game based on the calculation | Displaying reaction | |
+| The adult male finishes using the toilet | | | | | | | | |
+| `Event signal (Fluid)` | | | | | | | | |
+| | | | The system detects fluid | | | | Detecting fluid | 0.5 second |
+| | | | `Event signal (Fluid detection signal)` | | | | | |
+| | | | | The system processes the fluid pressure signal | | | Signal processing | |
+| | | | | `Call (game)` | | | | |
+| | | | | | The system performs the calculation based on the signal  | | Performing calculation | |
+| | | | | | `Call (calculation, display)`  | | | |
+| | | | | | | The system reacts to the adult male through the game based on the calculation | Displaying reaction | 5 seconds |
+| | | | | | | Call (back) | | |
+| The adult male keeps occupying the toilet | | | | | | | Detecting user not leaving |
+| `Event signal (not leaving)` | | | | | | | |
+| | The system detects the same person occupying the toilet | | | | | | Identifying the same user | 0.5 second |
+| | `Event signal (same person)` | | | | | | | |
+| | | | | The system processes the signal | | | Processing signal | |
+| | | | | `Call (display)` | | | | |
+| | | | | | | The system displays messages indicating the adult male to leave | Displaying ending message | |
+| | | | | | | `Call (back)` | | |
 
 ### vi. Extract functional requirements to originating requirements	
 
-The running description template may help the team focus on the whole system, instead of a single subsystem. We made different templates for different use cases. After combining all the templates, we get function requirements. The requirements are goal-oriented, as each of them corresponds to one or multiple functions. The summarized function requirements are listed in the table below.
+The running description template may help the team focus on the whole system behaviour, instead of subsystem behaviours. Different templates are made for different use cases. After combining all the templates, we can work out the function requirements. Here the requirements are goal-oriented, since each of them corresponds to one or multiple functions. The summarized function requirements are listed in the table below.
 
-# `table to be added`
+| Body detection subsystem | Sound detection subsystem | Liquid detection subsystem | Data processing subsystem | Game subsystem | Display subsystem |
+| --- | --- | --- | --- | --- | --- |
+| The system can detect human being nearby | The system can detect human sound | The system detects fluid pressure | The system can process the human body detection signal | The system can react to the adult male through the game based on the calculation of the fluid pressure | The system can display the reaction on the screen |
+| The system can detect the same person occupying the toilet | | The system can detect the direction of the fluid | The system can process the sound signal | The system can react to the adult male through the game based on the calculation of the fluid direction | The system can display ad again if no instruction is detected for a certain time | 
+| | | | The system can process the liquid pressure signal | | The system can display countdown timer |
+| | | | The system can process the liquid direction signal | | The system can display ad while no liquid is detected by the end of the countdown |
+| | | | | | The system can display the result of the game based on the calculation |
+| | | | | | The system can display messages indicating the adult male to leave |
 
 ### vii. Trace derived requirements to original requirements	
 
-Through the previously analysis, we have a better understanding of the requirements. During this process, many derived requirements may appear. Here we trace the derived requirements to original requirements, check if there are conflicts and solve them by modifying the functional requirements. The result is listed in the table below
+Through the previously analysis, we have a better understanding of the functional requirements. During this process, many derived requirements may appear. Here we trace the derived requirements to the original requirements, check if there are conflicts and solve them by modifying the functional requirements. The result is listed in the table below
 
-# `table to be added (only one is enough)`
+| No. | Derived requirements | function name |
+| --- | --- | --- |
+| DR 1 | The system can detect human being nearby | Body detection |
+| DR 2 | The system can detect human sound | Sound detection | 
+| DR 3 | The system detects fluid pressure | Liquid detection |
+| DR 4 | The system can detect the direction of the fluid | Liquid detection |
+| DR 5 | The system can process the human body detection signal | Signal processing |
+| DR 6 | The system can process the sound signal | Signal processing |
+| DR 7 | The system can process the liquid pressure signal | Liquid detection |
+| DR 8 | The system can process the liquid direction signal | Liquid detection |
+| DR 9 | The system can react to the adult male through the game based on the calculation of the fluid pressure | Game |
+| DR 10 | The system can react to the adult male through the game based on the calculation of the fluid direction | Game |
+| DR 11 | The system can display instructions | Display |
+| DR 12 | The system can display ad again if no instruction is detected for a certain time | Display |
+| DR 13 | The system can display countdown | Display |
+| DR 14 | The system can display ad while no liquid is detected by the end of the countdown | Display |
+| DR 15 | The system can display the result of the game based on the calculation | Display |
+| DR 16 | The system can detect the same person occupying the toilet | Body detection |
+| DR 17 | The system can display messages indicating the adult male to leave | Display |
 
-Base on the table above, we can construct the tracing matrix
+Base on the table above, we can trace derived requirements to original requirements.
 
-#  `table to be added`
+| No. | Derived requirements | function name | Trace to |
+| --- | --- | --- | --- |
+| DR 1 | The system can detect human being nearby | Body detection | OR 3 |
+| DR 2 | The system can detect human sound | Sound detection | OR 5 |
+| DR 3 | The system can detect fluid pressure | Liquid detection | OR 7 |
+| DR 4 | The system can detect the direction of the fluid | Liquid detection | OR 8 |
+| DR 5 | The system can process the human body detection signal | Signal processing | OR 3 |
+| DR 6 | The system can process the sound signal | Signal processing | OR 5 |
+| DR 7 | The system can process the liquid pressure signal | Liquid detection | OR 8 |
+| DR 8 | The system can process the liquid direction signal | Liquid detection | OR 8 | 
+| DR 9 | The system can react to the adult male through the game based on the calculation of the fluid pressure | Game | OR 9 |
+| DR 10 | The system can react to the adult male through the game based on the calculation of the fluid direction | Game | OR 9 |
+| DR 11 | The system can display instructions | Display | OR 4 |
+| DR 12 | The system can display ad again if no instruction is detected for a certain time | Display | OR 1 |
+| DR 13 | The system can display countdown | Display | OR 6 |
+| DR 14 | The system can display ad while no liquid is detected by the end of the countdown | Display | OR 1 |
+| DR 15 | The system can display the result of the game based on the calculation | Display | OR 9 |
+| DR 16 | The system can detect the same person occupying the toilet | Body detection | OR 10 |
+| DR 17 | The system can display messages indicating the adult male to leave | Display | OR 10 |
+
+Combining the derived requirements table with the original requirements table, we get the tracing matrix
+
+| | | The device can display ad when idling | The device can receive the ad to be displayed | The device can detect approaching human being | The device can display game instructions | The device can detect the sound of human being | The device can countdown to start the game | The device can detect fluid |  The device can interact with the user based on the pressure and direction of the fluid | The device can calculate and display the result of the game | The device can display the message to suggest that the user shall finish using the toilet as soon as possible |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | OR1 | OR2 | OR 3 | OR 4 | OR 5 | OR 6 | OR 7 | OR 8 | OR 9 | OR 10 |
+| DR 1 | The system can detect human being nearby | | | X | | | | | | | |
+| DR 2 | The system can detect human sound | | | | | X | | | | | |
+| DR 3 | The system can detect fluid pressure | | | | | | | X | | | |
+| DR 4 | The system can detect the direction of the fluid | | | | | | | | X | | |
+| DR 5 | The system can process the human body detection signal | | | | | | | | X | | |
+| DR 6 | The system can process the sound signal | Signal processing | | | | | | | | X | | |
+| DR 7 | The system can process the liquid pressure signal | Liquid detection | | | | | | | | X | | |
+| DR 8 | The system can process the liquid direction signal | Liquid detection | | | | | | | | X | | |
+| DR 9 | The system can react to the adult male through the game based on the calculation of the fluid pressure | | | | | | | | | X | |
+| DR 10 | The system can react to the adult male through the game based on the calculation of the fluid direction | | | | | | | | | X | |
+| DR 11 | The system can display instructions | | | | X | | | | | | |
+| DR 12 | The system can display ad again if no instruction is detected for a certain time | X | | | | | | | | | |
+| DR 13 | The system can display countdown timer | | | | | | X | | | | |
+| DR 14 | The system can display ad while no liquid is detected by the end of the countdown | X | | | | | | | | | |
+| DR 15 | The system can display the result of the game based on the calculation | | | | | | | | | X | |
+| DR 16 | The system can detect the same person occupying the toilet | | | | | | | | | | X |
+| DR 17 | The system can display messages indicating the adult male to leave | | | | | | | | | | X |
 
 From the matrix above we can find the original requirements that do no have a corresponding derived requirement. They are converted directly to derived requirements and listed in the table below
 
-# `table to be added`
+| No. | Derived requirements | function name | Trace to |
+| --- | --- | --- | --- |
+| Dr 18 | The system can receive the ad to be displayed | Message receiving | OR 2 |
 
 ### viii. The centrality of the operational description template	
 
-Now we switch back to the running description template. On the left side is the user. Based on the user behavior we can define the norm for the user interface, which can be used for editing the user manual. Base on the behavior description of each subsystem, the requirement norm for each subsystem are defined. What's more, through analyzing the template, norm for test and interface requirement can also be defined.
+Now we switch back to the operational description template. User is on the left. Based on the user behaviour we can define the norm for the user interface, which can be used for editing the user manual. The requirement norm for each subsystem can be defined based on their behaviour description. What's more, through analysing the template, the test norm and interface requirement norm can also be defined.
+
 
 # `table to be added`
+
 
 ## b) Design the flow and control	
 
-To avoid lost in details during function analysis, here we perform two different method, one based on functions, the other based on state changes. 
+To avoid getting lost in the details during function analysis, we use two different methods, one based on functions, the other based on status changes. 
 
 ### i. Identify functional relationships	
 
-System behaviors can be seen as interactions between different subsystems to realize different functions. We describe the behaviors using the function matrix, which is generated from function requirements. 
+System behaviours can be seen as functional interactions between different subsystems. We describe the behaviours using the functional matrix, which is generated from the derived functional requirements. 
 
-# `table to be added`
+| | Body detection | Sound detection | Fluid detection | Data processing | Game | Display | Message receiving | Automatic power saving |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Column is applied or has influence on row | In case any human being approaching the device and cause the system generate signals | In case sound is produced and cause the system generate signals | In case fluid is produced and cause the system generate signals | | | | | |
+| Body detection | --- | prior to | | cause | | | | |
+| Sound detection | | --- | prior to | cause | | | | |
+| Fluid detection | | | --- | cause | | | | |
+| Data processing | | | | --- | call | call | | cause |
+| Game | | | | | --- | call | | |
+| Display | | | | | | --- | call | |
+| Message receiving | | | | | | | --- | |
+| Automatic power saving | | | | | | | | --- | 
 
-Note that entries below the diagonal are empty, otherwise the device will fall in deadlock.
+Note that the entries below the diagonal are empty, otherwise the device will fall into deadlock or infinite loop.
 
 ### ii. Summarize state changes	
 
-Here we focus on state changes and event triggers. Through analyzing the function matrix, we have a good understanding of system behaviors. Through the analysis of state change matrix, we can double-check if any system states are omitted in the previous step. As we can see from the table below, there are non-empty entries below the diagonal, which suggests that the system might be in abnormal states. 
+As mentioned above, another way to describe the system behaviours is to implement the status changing matrix, which is focused on status changing and event triggering. Through analysing the function matrix, we have a better understanding on the system behaviours. Through status changing matrix, we can double-check if any system states are omitted in the previous step. As we can see from the table below, there are non-empty entries below the diagonal, which suggests that the system might be in abnormal states. 
 
-# `table to be added`
+| (Event) changes system status (row) to status (column) | Display ad and wait for human being approaching | Detected human being nearby | Process body detection signal | Display instructions | Detected human sound | Process sound signal | Display countdown timer | Detected fluid pressure | Process fluid pressure signal | Perform calculation based on pressure signal | Detected fluid direction | Process fluid direction signal | Perform calculation based on direction signal | Display game result | Detected same user | Display message indicating the user should leave |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Display ad and wait for human being approaching | --- | Human being approaching | | | | | | | | | | | | | | |
+| Detected human being nearby | | --- | Send out signal to be received | | | | | | | | | | | | | |
+| Process body detection signal | | | --- | Play | | | | | | | | | | | | |
+| Display instructions | Body detection signal disappears | | | --- | | | | | | | | | | | | |
+| Detected human sound | | | | | --- | Send out signal to be received | | | | | | | | | | |
+| Process sound signal | | | | | | --- | Play | | | | | | | | | |
+| Display countdown timer | Sound signal disappears | | | | | | --- | | | | | | | | | |
+| Detected fluid pressure | | | | | | | | --- | Send out signal to be received | | | | | | | |
+| Process fluid pressure signal | | | | | | | | | --- | Transfer | | | | | | |
+| Perform calculation based on pressure signal | | | | | | | | | | --- | | | | Transfer | | |
+| Detected fluid direction | | | | | | | | | | | --- | Send out signal to be received | | | | |
+| Process fluid direction signal | | | | | | | | | | | | --- | Transfer | | | |
+| Perform calculation based on direction signal | | | | | | | | | | | | | --- | Transfer | | |
+| Display game result | Game over & User leaves | | | | | | | | | | | | | --- | Detected human being nearby | Play |
+| Detected same user | | | Send out signal to be received | | | | | | | | | | | | --- | |
+| Display message indicating the user should leave | Body detection signal disappears | | | | | | | | | | | | | | | --- |
 
-In the table above a deadlock state is marked with bold borders. Below is the state change graph. Within the square is the system state. Lines represent paths, with events indicated above them. 
+In the table above a deadlock state is marked with bold borders. Below is the state change graph. Within the square is the system status. Lines represent paths, with events indicated above them. Each route is a single loop. 
+
+# `pic to be added`
+
 
 ## c) Design the structure	
 
 ### i. Identify interfaces and finalize subsystems	
 
-Here we use interface matrix to identify and analyze interfaces. Outside entities and inside components are listed in the top row and left column of the matrix. The other units are interfaces, which describe messages or events transferred between subsystems. The identified interfaces are recorded in the interface control document. 
+Here we use interface matrix to identify and analyse interfaces. Outer entities and inner components are listed in the top row and left column of the matrix. The rest are interfaces, which describe messages or events transferred between subsystems. The identified interfaces are recorded in the interface control document. 
 
-# `table to be added`
+| (Event) | Human being who is going to use the toilet | Shopping mall | Body detection system | Sound detection system | Fluid detection system | Data processing system | Game system | Display system |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Human being who is going to use the toilet | --- | | Human being approaching; The same user does not leave | Human being make sound | Human being release liquid in the urinal | Switch to power saving mode when idling for too long | | |
+| Shopping mall | | --- | | | | | | Display ad |
+| Body detection system | | | --- | | | Send out signal to be received; Switch to power saving mode when idling for too long | | |
+| Sound detection system | | | | --- | | Send out signal to be received | | |
+| Fluid detection system | | | | | --- | Send out signal to be received | | |
+| Data processing system | | | | | | --- | Signal transfer | Signal transfer | 
+| Game system | | | | | | | --- | Transfer signal |
+| Display system | | Receive ad to be displayed | | | | | Receive signal and display | --- |
 
-If we remove outside entities from the above matrix, we will get design structure matrix. This is very useful for multiple teams to cooperate and accomplish the task. Usually different team works on different subsystem. It's very important that all the teams have the same definition for every interface. 
+If we remove the outside entities from the above matrix, we will get the design structure matrix. This is very useful when multiple teams cooperate to accomplish the task. Usually different team works on different subsystem. **It's very important that all the teams have the same definition for every interface**. 
 
-# `table to be added`
+| (Event) | Body detection system | Sound detection system | Fluid detection system | Data processing system | Game system | Display system |
+| --- | --- | --- | --- | --- | --- | --- |
+| Body detection system | --- | | | Send out signal to be received; Switch to power saving mode when idling for too long | | |
+| Sound detection system | | --- | | Send out signal to be received | | |
+| Fluid detection system | | | --- | Send out signal to be received | | |
+| Data processing system | | | | --- | Transfer signal | Transfer signal |
+| Game system | | | | | --- | Transfer signal |
+| Display system | | | | | Receive signal and display | --- |
 
-The above matrix is arranged to have most of the contents above the diagonal, and most of the messages or events are in the column of data processing system. The matrix suggest that game system, data processing system and display system are closely related. To reduce system errors, it's better to develop these three systems at the same time. Therefore, we combine them as one, namely display, game and data processing system.
+The above matrix should be adjusted to have most of the non-empty entries above the diagonal. What's more, subsystems that have more interactions between each other should be merged to one super subsystem. In our case, from the matrix we can see that the game system, data processing system and display system are closely related. To avoid potential errors, it's better to develop these three systems at the same time. Therefore, we combine them as one, namely display, game and data processing system.
 
 ### ii. Document links	
 
-This step is to analyze the way that different subsystems communicate and interact with each other through their interfaces. Here links may refer to RS232, Ethernet, Wi-Fi, USB etc.
+In step we study how different subsystems should communicate and interact with each other through their interfaces. Here links may refer to RS232, Ethernet, Wi-Fi, USB etc.
 
-# `table to be added`
+| (Event) | Human being who is going to use the toilet | Body detection system | Sound detection system | Fluid detection system | Data, game and display system |
+| --- | --- | --- | --- | --- | --- |
+| Human being who is going to use the toilet | --- | Approach the device | Send out sound | Release urine in the urinal | |
+| Body detection system | | --- | | | Send out electric signal |
+| Sound detection system | | | --- | | Send out electric signal |
+| Fluid detection system | | | | --- | Send out electric signal |
+| Data, game and display system | | | | | --- | 
 
 ### iii. Identify emergent interactions	
 
-We use matrix to display all kinds of relationships. These analysis are follow the procedure from use cases to function analysis. Now we need to consider some unexpected side-effects which might rise from different subsystems. These emergent interactions may occur due to friction, vibration, heat, etc., which are common among mechanical systems but rare among software systems. We use interaction matrix to analyze these side-effects. Afterwards, we may consider to add new requirements or even subsystems to control the side-effects. 
+Matrix is very useful as it can reveal relationships between different components, changing of status, interfaces between different subsystems, etc. All the analysis follow the same procedure -- from use cases to function analysis. Now we need to consider some unexpected side-effects which might rise from different subsystems. These emergent interactions may occur due to friction, vibration, heat, etc., which are common among mechanical systems but rare among software systems. We use interaction matrix to analyse these side-effects. Afterwards, we may consider to add new requirements or even subsystems to control the side-effects. 
 
-# `table to be added`
+| Side-effect | Human being who is going to use the toilet | Body detection system | Sound detection system | Fluid detection system | Data, game and display system |
+| --- | --- | --- | --- | --- | --- |
+| Human being who is going to use the toilet | --- | | Noise | Erosion | |
+| Body detection system | | --- | | | |
+| Sound detection system | | | --- | | |
+| Fluid detection system | | | | --- | Leakage |
+| Data, game and display system | | | | | --- | 
 
 ### iv. Sketch a design concept	
 
 Before substantiating the design of subsystems, we will sketch a design concept, which will be very useful later on. 
 
+
 ### v. Create a rough-cut bill of materials	
 
-From the design concept we can estimate types and quantities of raw materials we need, and their cost. We list them in an table, in the order of descending system or subsystem levels. Note that this step is necessary for estimating the cost, however, it does not mean that the design is fixed. Estimating the total cost at an early stage is rather important. A large part of the cost is from the materials. 
+From the previous elaborated design we can estimate the types and quantities of raw materials we need, and their cost. We sort them out in descending order of system and subsystem levels. Note that even though we work out the bill of materials, it does not mean that the design is fixed. However, it facilitates the cost estimation of each subsystems. Estimating the total cost at an early stage is rather important, and materials account for a large proportion of the total cost.
 
-# `table to be added`
+| 1 | Interactive Urinal Device | | | |
+| --- | --- | --- | --- | --- |
+| 1.1 | | Body detection system | | |
+| 1.1.1 | | | Infrared body detection sensor | |
+| 1.2 | | Sound detection system | | |
+| 1.2.1 | | | Sound detection sensor | |
+| 1.3 | | Fluid detection system | | |
+| 1.3.1 | | | Pressure sensor | |
+| 1.3.2 | | | Waterproof glue | |
+| 1.4 | | Data, game and display system | | |
+| 1.4.1 | | | Display subsystem | |
+| 1.4.1.1 | | | | Liquid crystal display |
+| 1.4.2 | | | Data processing subsystem | |
+| 1.4.2.1 | | | | PC |
+| 1.4.2.1 | | | | Embedded system |
+| 1.4.3 | | | Game subsystem | |
+| 1.4.3.1 | | | | Python |
 
-From the table above, we present the cost in the table below. The viability analysis and professional knowledge are omitted here. 
+Based on the table above, we estimated the cost. The viability analysis is omitted here, as it requires professional knowledge. 
 
-# `table to be added`
+| Rough-cut bill of materials | | | | | Material description | Unit | Quantity | Price | Summed price | Subsystem cost | Total cost |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Interactive Urinal Device | | | | | | | | | | 3137.2 |
+| 1.1 | | Body detection system | | | | | | | | 8.2 | |
+| 1.1.1 | | | Infrared body detection sensor | | Module | Piece | 1 | 8.2 | 8.2 | | |
+| 1.2 | | Sound detection system | | | | | | | | 275 | |
+| 1.2.1 | | | Sound detection sensor | | Module | Piece | 1 | 275 | 275 | | |
+| 1.3 | | Fluid detection system | | | | | | | | 230 | |
+| 1.3.1 | | | Pressure sensor | | Module | Piece | 5 | 28 | 140 | | |
+| 1.3.2 | | | Waterproof glue | | | Bottle | 2 | 45 | 90 | | |
+| 1.4 | | Data, game and display system | | | | | | | | | |
+| 1.4.1 | | | Display subsystem | | | | | | | 2624 | |
+| 1.4.1.1 | | | | Liquid crystal display | | Piece | 1 | 289 | 289 | | |
+| 1.4.2 | | | Data processing subsystem | | | | | | | | |
+| 1.4.2.1 | | | | PC | | Set | 1 | 2300 | 2300 | | |
+| 1.4.2.1 | | | | Embedded system | | Piece | 1 | 35 | 35 | | |
+| 1.4.3 | | | Game subsystem | | | | | | | | |
+| 1.4.3.1 | | | | Python | | | 1 | Free | Free | Free | |
 
 ### vi. Allocate target technical performance measure to subsystem	
 
-Through analyzing the house of quality we have gotten the initial requirements, including cost and liability. These targets should be allocated to subsystems, hence to guarantee that the requirements are satisfied in the end. Correspondingly, target technical performance measure should also be allocated to each subsystem. If the estimated cost is higher than expectation, the cutting of the cost of each subsystem should be calculated. Here we skip this step. 
+Through the analysis using the house of quality we have gotten the originating requirements, including the cost and liability. To guarantee that the requirements are satisfied in the end, the targets (including it's technical performance measure) should be allocated to corresponding subsystems. If the estimated cost is higher than expectation, cutting of the cost of each subsystem should be calculated. Here we skip this step. 
 
 # 6. Validate the design	
 
-As suggested by the V-model, design and test are related. Here we do not focus on the design-manufacture-test procedure, but on the steps before and after.
+Verification is to check if the product is produced in the proper way; Validation is to make sure that the product fits customers' desire. As suggested by the V-model, design and test are related. Here we do not focus on the design-manufacture-test procedure, but rather the steps before and after that.
 
 ## a) Verify requirements	
 
 ### i. Conduct design reviews	
 
-There are two types of requirements verifications: customer verification and internal verification. Through customer verification we can make sure the product is designed as customer requested, in the mean time, ambiguities in the requirements may be clarified during the discussion. These requirements are mainly behaviour related. The purpose of the verification is to figure out how to fabricate the product. It should satisfy customer's requirement but not violate any regulation. The regulation related requirements are generally non-behaviour related. Anyway, the focus of the verification should be on behaviours, instead of structures.
+There are two types of verifications: customer verification and internal verification. Through customer verification we can make sure the product is designed as customer requested. In the mean time, ambiguities in the requirements can be clarified during the discussion. These requirements are usually behaviour related, which results in functions that the system should provide. The purpose of the verification is to figure out how to fabricate the product. It should satisfy customer's requirement without violating any regulation. The regulation related requirements are generally running process related, instead of behaviour related. Anyway, during the verification we should focus on the behaviour of the system, instead of the structure of the system.
 
-For systems that are very complecated, there will be more than one verifications, some for sub-systems, some for the whole system. Different verifications emphasis on different aspects. The status of design are also different at different stages. One thing for sure, the previous behaviour description template will be the main tool for verifications.
+For complicated systems, there will be more than one verifications, some for subsystems, some for the whole system. During different verifications we focus on different aspects. The state of design are also different at different stages. One thing for sure, the behaviour description template developed in the previous step will be the main tool for verifications.
 
 #### 1. Determine if entry criteria are met	
 
-To avoid wasting participants' time, evaluation on design works should be done before the verification, to decide if entry criteria are met. Listed below are criteria for evaluation.
+Evaluation on the design should be done before the verification. The team should determine if entry criteria are met. Listed below are the criteria for evaluation.
 
-# `table to be added` 
+| User manual |
+| --- |
+| Use case |
+| Functional requirements |
+| Assessment from the client |
+| Competitiveness analysis |
+| Technical performance analysis |
+| House of quality documents |
+| Customer value proposition | 
+| Candidates for the major design |
+| Concept of the assembled product |
+| Major design decisions analysis |
+| Running description template |
+| Function interaction matrix |
+| State change matrix |
+| Interface, connection and interaction matrix |
+| Test plan |
+| Failure modes and effect analysis |
+| Project development plan |
 
 #### 2. Schedule the review meeting	
 
-For internal verifications, invitations should be sent out to experts in the field. For customer verifications, it's necessary to find customer deputies to form a group. They can present customer opinions properly. 
- 
+For internal verifications, experts in the field should be invited. For customer verifications, it's necessary to find customer deputies and form a group. They can present customer opinions properly. 
+
 #### 3. Present the design	
 
-Product design can be described from high to low levels, i.e., integrated product concept → function interaction matrix → status exchange matrix → interface, connection and interaction matrix. To guide the verification group to express their opinions effectively, it's better to present them the running description too, therefore they could have a better understanding of the task procedure.
+It's recommended to present the product design from high levels to low levels, i.e., integrated product concept → function interaction matrix → status exchange matrix → interface, connection and interaction matrix. To guide the verification group for expressing their opinions effectively, it's better to present them the running description too, therefore they could have a better understanding of the task procedure.
 
 #### 4. Collect review panel comments	
 
-Collect opinions of the verification group on different parts of the design, such as on the function requirements or the procedure. After processing, they can be written in the verification reports. 
+Opinions from the verification group on different parts of the design (functional requirements, procedure, etc.) should be collected. These information should be processed and written in the verification reports. 
 
 #### 5. Use exit criteria to assess whether the review was passed	
 
-Before the verification meeting, exit criteria should be distributed to group members. It includes: the satisfaction of the customer requirements; the technical viability of the design; the risk of the project etc. As a result, group members can assess whether the review is passed. 
+Before the verification meeting, the exit criteria should be distributed to the group members. It should include: satisfaction of the customer requirements; technical viability of the design; risk of the project etc. Based on the exit criteria group members can assess whether the review is passed. 
 
 #### 6. Reschedule if the review did not pass	
 
-If the review does not pass the verification, it can be modified based on the advices in the report, and reschedule the time for the next verification. 
+If the review does not pass the verification, it can be modified based on the advices in the report, and reschedule for the next verification. 
 
 ### ii. Develop the test plan	
 
-Usually the test plan will be worked out at a rather late stage. In that case, the content of the test plan will be based on the product design instead of requirements. On the other hand, if the test plan is worked out at an early stage, original requirements won't be omitted during the test.#### 1. Identify behavioural test sequence	
+Usually the test plan will be worked out at a rather late stage. In that case, the content of the test plan will be based on the product design instead of requirements. We suggest the team to work out the test plan at an early stage, therefore the original requirements won't be omitted during the test.
 
-For test, running description template is very useful tool for designing test procedure. Two columns should be added in the template: the expected result and the real result. The real result should be filled in by the test engineer.  What's more, the template should also involve the special set-ups required for the test, such as equipments, costumes.
+#### 1. Identify behavioural test sequence	
+
+The running description template is used for designing test procedure. Two columns are added in the template: the expected result and the real result. The real result should be filled in by the test engineer.  What's more, the template should also involve any special setups required for the test, such as equipments, costumes.
 
 For our project, the test procedure is as follows,
+
+| Test process: Adult male using the device |
+| --- |
+| Initial state: |
+| The device displays ads |
+| Lab setup: |
+| Waterproof gloves, or waterproof costumes if necessary |
+| Test setup: |
+| Use a plastic bottle of warm water to simulate the urine, which will be squeezed into the urinal |
+
+
+| An adult male will use the toilet (operator) | Body detection subsystem | Sound detection subsystem | Liquid detection subsystem | Data processing subsystem | Game subsystem | Display subsystem | System status | Time | Expected result | Actual result |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| The adult male approaches the toilet | | | | | | | Displaying ad while waiting for people coming close | | Ad displayed repeatedly | |
+| `Event signal (Signal of human body)` | | | | | | | | | | |
+| | The system detects human being nearby | | | | | | Detecting human being nearby| 1-3 seconds | Signal sent out by the body detection unit | |
+| | `Event signal (Human body detection signal)` | | | | | | | | | |
+| | | | | The system processes the signal | | | Signal processing | | Signal received and processed | |
+| | | | | `Call (play)` | | | | | | |
+| | | | | | | The system displays instructions | Displaying instruction | | Instruction displayed | |
+| | | | | | | _**The system can display advertisement after idling for a while**_ | | 5 seconds | Ad displayed repeatedly | |
+| | | | | | | `Call (return)` | | | | |
+| The adult male confirms readiness by sound | | | | | | | | | | |
+| `Event signal (Sound)` | | | | | | | | | | |
+| | | The system detects the sound | | | | | Detecting human voice | 1-3 seconds | Signal sent out by the sound detection unit | |
+| | | `Event signal (Sound detection signal)` | | | | | | | | |
+| | | | | The system processes the sound signal | | | Signal processing | | Signal received and processed | |
+| | | | | `Call (display)` | | | | | | |
+| | | | | | | The system counts down to start the game | Countdown | | Countdown displayed | |
+| | | | | | | _**The system can display advertisement again if no fluid detected in the end of countdown**_ | | 5 seconds | Ad displayed | |
+| | | | | | | `Call (back)` | | | | |
+| The adult male starts to use the toilet | | | | | | | | | | |
+
+| End state: adult male quit using the urinal | 
+| --- |
+| 1. Display ad|
+
+
+** the form is not complete **
+
+| `Event signal (Fluid)` | | | | | | | | |
+| | | | The system detects fluid | | | | Detecting fluid | 0.5 second |
+| | | | `Event signal (Fluid detection signal)` | | | | | |
+| | | | | The system processes the fluid pressure signal | | | Signal processing | |
+| | | | | `Call (game)` | | | | |
+| | | | | | The system performs the calculation based on the signal  | | Performing calculation | |
+| | | | | | `Call (calculation, display)`  | | | |
+| | | | | | | The system reacts to the adult male through the game based on the calculation | Displaying the reaction on the screen | |
+| | | | The system detects the direction of the fluid | | | | Detecting fluid | 0.5 second |
+| | | | `Event signal (Fluid direction signal)` | | | | | |
+| | | | | The system processes the fluid direction signal | | | Signal processing | |
+| | | | | `Call (game)` | | | | |
+| | | | | | The system performs the calculation based on the signal  | | Performing calculation | |
+| | | | | | `Call (calculation, display)`  | | | |
+| | | | | | | The system reacts to the adult male through the game based on the calculation | Displaying reaction | |
+| The adult male finishes using the toilet | | | | | | | | |
+| `Event signal (Fluid)` | | | | | | | | |
+| | | | The system detects fluid | | | | Detecting fluid | 0.5 second |
+| | | | `Event signal (Fluid detection signal)` | | | | | |
+| | | | | The system processes the fluid pressure signal | | | Signal processing | |
+| | | | | `Call (game)` | | | | |
+| | | | | | The system performs the calculation based on the signal  | | Performing calculation | |
+| | | | | | `Call (calculation, display)`  | | | |
+| | | | | | | The system reacts to the adult male through the game based on the calculation | Displaying reaction | 5 seconds |
+| | | | | | | Call (back) | | |
+| The adult male keeps occupying the toilet | | | | | | | Detecting user not leaving |
+| `Event signal (not leaving)` | | | | | | | |
+| | The system detects the same person occupying the toilet | | | | | | Identifying the same user | 0.5 second |
+| | `Event signal (same person)` | | | | | | | |
+| | | | | The system processes the signal | | | Processing signal | |
+| | | | | `Call (display)` | | | | |
+| | | | | | | The system displays messages indicating the adult male to leave | Displaying ending message | |
+| | | | | | | `Call (back)` | | |
+
 
 # `table to be added`
 # `table to be added`
@@ -1287,79 +1824,210 @@ For our project, the test procedure is as follows,
 
 #### 2. Develop behavioural test methodology	
 
-Through behaviour analysis we have gotten the original requirements. There should be a test plan for every system behaviour. Usually test plans are presented in tables, listed with test schedules, test equipments, entrance and exit conditions. Entrance condition infers the requirements to be satisfied before the test; exit condition is the minimum requirements for passing the test. 
+Through behaviour analysis we have gotten the original requirements. There should be a test plan for every system behaviour. Usually test plans are presented in tables, listed with test schedules, test equipments, entrance and exit conditions. Entrance condition is the requirements to be satisfied before the test; exit condition is the minimum requirements for passing the test. 
 
-For some tests it's not necessary to wait until the prototype system is fully developed, if only certain parts are required. The earlier a test is started, the earlier defects in the design can be detected and fixed. The test stage can easily become the bottleneck of the project. It's better to start tests at an earlier stage, to avoid accumulating too many test tasks and cause a delay.
+For some tests it's not necessary to wait until the prototype system is fully developed. The earlier a test is started, the earlier defects in the design can be detected and fixed. The test stage can easily become the bottleneck of the project. To avoid accumulating too many test tasks and causing a delay, it's better to start the tests as early as possible.
 
-The exit conditions should have much flexibility. They should be approved by customers, owners and rule makers. Tests should be repeated and analysed using statistics methods. When developing the test plan, a requirements list with complete structures, clear descriptions can be very beneficial. For the ideal case, test plans should be drawn out from the requirements list. Therefore, test plans should be considered during the preparation of the requirements. 
+The exit condition shouldn't be very flexible. It should be approved by customers, owners and rule makers. Tests should be repeated and analysed using statistics methods. While developing the test plan, it's better to have a full requirements list with complete structures, clear descriptions. For the ideal case, test plans should be developed based on the requirements list. Therefore, test plans should be considered during the preparation of the requirements. 
 
 For our project, behaviour test plan is analysed as follows,
 
-# `table to be added`
+| Test No. | Test method | Test equipment | Entry condition | Exit condition |
+| --- | --- | --- | --- | --- |
+| TP1 | Test procedure: adult male use the toilet | Adult male | Fully developed prototype | Instruction is displayed when adult male approaching the device: after detect human sound, the system starts countdown; Interactive game responses to the fluid released by the adult male; Game results is displayed when adult male finishes using the urinal; Ad is displayed when system is idle |
+| TP2 | Test procedure: adult male approaching the device and leave | Adult male | Body detection, display, data processing and game systems | Instruction is displayed when adult male approaching; Ad is displayed when adult male leaves |
+| TP3 | Test procedure: adult male approaching the device, send out sound instruction and then leave | Adult male |  Body detection, display, data processing and game systems | Instruction is displayed when adult male approaching the device: after detect human sound, the system starts countdown; Ad is displayed when system is idle |
+| TP4 | Test procedure: adult male keep occupying the urinal after finish using it | Adult male |  Body detection, display, data processing and game systems | Instruction is displayed when adult male approaching the device: after detect human sound, the system starts countdown; Interactive game responses to the fluid released by the adult male; Game results is displayed when adult male finishes using the urinal; Leaving instruction is displayed when detecting the same adult male still occupying the urinal |
 
 #### 3. Repeat for non-behavioural tests	
 
-Most of the non-behavioural request are obtained during the analysis of the quality house. The rest are usually from the review. Test are required for every request. 
+Most of the non-behavioural requests can be obtained using the quality house. Some additional requests may be generated during the review. Test are required for every request. 
 
 For our project, non-behavioural tests are listed in the table below,
 
-# `table to be added`
+| Primary request | Abstract name | Test id | Test method | Validation method | Test equipment | Entry condition | Exit condition |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| OR 13 | The area of the detector covered by waterproof material | TP 5 | Test process: test the area of the urinal need to be modified | Analysis | Calliper, calculator | Finish modification of the urinal | The area of the modification is less than 80 mm<sup>2</sup> |
+| OR 14 | The maximum detection area | TP 6 | Test process: test the detection area in the urinal | Analysis | Fluid pressure and direction detectors | Install fluid pressure and direction detectors in the urinal | The maximum detection area is no less then 120 mm<sup>2</sup> |
+| OR 15 | The maximum number of detectors can be installed | TP 7 | Test process: test the amount of detectors can be installed in the urinal | Check | Fluid pressure and direction detectors | Install fluid pressure and direction detectors in the urinal | The amount of detectors can be installed in the urinal is no less than 5 | 
+| OR 16 | The minimum volume of the human sound can be detected | TP 8 | Test process: test if the sound detector can detect human sound | Physical test | Sound detector | Install sound detector in the urinal | The detector can detect sound higher than 40 dB |
+| OR 17 | The maximum time waiting to start the game | TP 9 | Test process: test the time to start the game after countdown | Analysis and physical test | Display, data processing and game system | Body and sound detector working properly | The maximum waiting time for starting the game is 3 second |
+| OR 18 | The maximum time waiting to display the game result | TP 10 | Test process: Adult male finish using the toilet and see the game result | Physical test | Fluid pressure and direction detectors, display, data processing, game system | Adult male releases urine in the urinal | The maximum time waiting for the game result is 0.1 second |
+| OR 19 | User selects the same game for no less than 3 times | TP 11 | Test process: there are multiple games for selection | Analysis and check | Display, data processing, game system | Adult male releases urine in the urinal | User selects the same game for at least 3 times |
+| OR 21 | The waiting time for displaying the quit using the urinal message | TP 12 | Test process: The same user keep occupying the urinal, the device display message indicting he should leave | Analysis and test | Display, data processing, game system | The adult male finish using the toilet and leave | The waiting time for displaying the message is 8 second |
+| OR 22 | Components are compactly allocated | TP 13 | Test process: All subsystems are installed compactly | Analysis and test | Display, data processing, game system | All subsystems are installed | All the components can be contained in three boxes | 
+| OR 23 | Auto switch | TP 14 | Test process: correctly set the timer of the device | Analysis and test | Display, data processing, game system | Display, data processing and game systems are installed | Set the auto switch off time at 1 am and auto switch on time at 7 am |
 
-After finishing the plan for non-behavioural tests, a table for real test should be designed based on statistic methods. For example, after 10 tests, based on six sigma the average value and standard deviance can be used for evaluating if the design has passed the test or not.
+After finishing the plan for non-behavioural tests, a table should be designed for practical test. For example, after 10 tests, statistical evaluations (mean, variance, etc.) based on six sigma can be used for determining if the design has passed the test or not.
 
-#### 4. Map test activities to system requirements	
+#### 4. Map test activities to system requirements
 
-After finishing all the tests, it's important to check if they are complete. Now we should map test activities to system requirements, to make sure that there is a test activity for every original request. The result will be presented in a reference matrix. Any omitted tests should be added now.
+It's important to check the completeness of the tests. We map the test activities to system requirements. In this way we can be sure that there is a test activity for every original request. The result will be presented in a reference matrix. Any omitted tests should be added now.
 
-For our project, the result of checking the test plan for behavioural requests is presented in the table below,
-
-# `table to be added`
+| Originated from | Derived request number | Derived function request | Function name | Test process |
+| --- | --- | --- | --- | --- |
+| OR 3 | DR 1 | Device can detect human being approaching | Body detection | TP 1 | 
+| OR 5 | DR 2 | Device can detect the sound sent out by the adult male | Sound detection | TP 1 |
+| OR 7 | DR 3 | Device can detect the fluid pressure | Fluid detection | TP 1 | 
+| OR 8 | DR 4 | Device can detect the fluid direction at many detection points | Fluid detection | TP 1 |
+| OR 3 | DR 5 | Device can convert and process body detection signal | Data processing | TP 1 | 
+| OR 5 | DR 6 | Device can convert and process sound detection signal | Data processing | TP 1 |
+| OR 8 | DR 7 | Device can convert and process fluid pressure signal, send it to the game subsystem | Fluid detection | TP 1 |
+| OR 8 | DR 8 | Device can convert and process fluid direction signal, send it to the game subsystem | Fluid detection | TP 1 |
+| OR 9 | DR 9 | Device can perform calculation based on the fluid pressure signal | Game | TP 1 |
+| OR 9 | DR 10 | Device can perform calculation based on the fluid direction signal | Game | TP 1 |
+| OR 4 | DR 11 | Device can display game instructions | Display | TP 1 | 
+| OR 1 | DR 12 | Device can return to the initial state after displaying the game instructions for a while without receiving human sound indicating starting the game | Display | TP 2 |
+| OR 6 | DR 13 | Device can display countdown | Display | TP 1 |
+| OR 1 | DR 14 | Device can return to the initial states by the end of the countdown if no fluid detected | Display | TP 3 | 
+| OR 9 | DR 15 | Device can display the game result based on the calculations | Display | TP 1 |
+| OR 10 | DR 16 | Device can detect the same user occupying the toilet without leaving | Body detection | TP 4 |
+| OR 10 | DR 17 | Device can display message indicating the user should leave | Display | TP 4 | 
 
 The result of checking the test plan for non-behavioural requests is presented in the table below
 
-# 'table to be added'
+| Request ID | Non-behavioural request | Abstract name | Test process |
+| --- | --- | --- | --- |
+| OR 13 | The area of waterproof material is less than 80 mm<sup>2</sup> | The area of waterproof material | TP 5 |
+| OR 14 | The detection area of the toilet is larger than 120 mm<sup>2</sup> | The area of detection | TP 6 |
+| OR 15 | The number of detectors are no less than 5 | The number of detectors | TP 7 |
+| OR 16 | The volume to activate sound detector is at least 40 db | The volume to activate sound detector | TP 8 |
+| OR 17 | The game can be started within 3 seconds | The time to start the game | TP 9 |
+| OR 18 | The game can display the result within 0.1 second | The time for displaying the result | TP 10 |
+| OR 19 | The user choose the same game for at least 3 times | The times the user choose the same game | TP 11 |
+| OR 21 | After waiting for at least 8 seconds, the device will display message indicating the user to leave | The waiting time for displaying the message | TP 12 | 
+| OR 22 | All the components can be placed in no more than 3 boxes | The collection of components | TP 13 |
+| OR 23 | The device will automatically switch on at 7 am and switch off at 1 am | Automatic switch on and off | TP 14 |
 
-Develop the reference matrix to check the completeness of the tests.
+A reference matrix can be developed to check the completeness of the tests.
 
-# 'table to be added'
+| Test (row) application on primary request (column) | OR 1 | OR 2 | OR 3 | OR 4 | OR 5 | OR 6 | OR 7 | OR 8 | OR 9 | OR 10 | OR 13 | OR 14 | OR 15 | OR 16 | OR 17 | OR 18 | OR 19 | OR 21 | OR 22 | OR 23 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| TP 1 | | | X | X | X | X | X | X | X | | | | | | | | | | | |
+| TP 2 | X | | | | | | | | | | | | | | | | | | | | 
+| TP 3 | X | | | | | | | | | | | | | | | | | | | | 
+| TP 4 | | | | | | | | | | X | | | | | | | | | | | 
+| TP 5 | | | | | | | | | | | X | | | | | | | | | | 
+| TP 6 | | | | | | | | | | | | X | | | | | | | | | 
+| TP 7 | | | | | | | | | | | | | X | | | | | | | | 
+| TP 8 | | | | | | | | | | | | | | X | | | | | | | 
+| TP 9 | | | | | | | | | | | | | | | X | | | | | | 
+| TP 10 | | | | | | | | | | | | | | | | X | | | | | 
+| TP 11 | | | | | | | | | | | | | | | | | X | | | | 
+| TP 12 | | | | | | | | | | | | | | | | | | X | | | 
+| TP 13 | | | | | | | | | | | | | | | | | | | X | | 
+| TP 14 | | | | | | | | | | | | | | | | | | | | X | 
 
-Here we figured that OR2 (the interactive device should be able to receive instructions and display commercials) hasn't scheduled for test, which should be added.
+Here we find that OR2 (the interactive device should be able to receive instructions and display commercials) hasn't scheduled for test, which should be added.
 
-# `table to be added`
+| | | | |
+| --- | --- | --- | --- |
+| OR 2 | The device can receive instructions and display ads | Display ads | TP 15 |
 
-## b) Manage risks	
+## b) Manage risks
 
-Risk management is of great importance and has been considered during the preparation of the quality house. There are two ways to manage risks: one is from bottom to top -- the failure mode and effects analysis(FMEA); the other is from top to bottom -- fault tree analysis(FTA). For our project, we choose FMEA. Behaviours that minimize risks are called rectification behaviours, aiming to reduce probabilities of malfunctions, or the damage caused by it if malfunctions occur. 
+Risk management is of great importance. It has been taken into considerition when working out the quality house. There are two ways to manage risks: the bottom-up method -- the failure mode and effects analysis (FMEA); the bottom down method -- fault tree analysis (FTA). For our project, we choose FMEA. Behaviours that minimize risks are called rectification behaviours, which aim to reduce probability of malfunctions, and the potential damage they may introduce.
 
-### i. Conduct failure modes and effects analysis	
+### i. Conduct failure modes and effects analysis (FMEA)
 
-#### 1. Select functions	
+#### 1. Select functions
 
-As mentioned above, the FMEA procedure is to preform analysis from bottom to top, starting with basic components or subsystems. Note that analysis start with functions may discover same risks. For our project we start with subsystem.
+As mentioned above, the FMEA is a bottom-up method, which starts the analysis from the basic components or subsystems. For our project we start with subsystem. Note that analysis start with functions may help us to discover the same risks.
 
-# `table to be added`
+| |
+| --- |
+| Body detection subsystem |
+| Sound detection subsystem |
+| Fluid detection subsystem |
+| Data process subsystem |
+| Game subsystem |
+| Display subsystem |
 
 #### 2. identify failure modes	
 
-Here we identified failure modes for every subsystem. Note some subsystems may have more than one failure modes.
+Here we identified failure modes for every subsystem. Note that some subsystems may have more than one failure modes.
 
-# `table to be added`
+| Failure mode index | Identified function or subsystem | Failure mode |
+| --- | --- | --- |
+| F.1 | Body detection subsystem | Body detection failure |
+| F.2 | Sound detection subsystem | Sound detection failure |
+| F.3 | | Noise |
+| F.4 | Fluid detection subsystem | Fluid detection failure | 
+| F.5 | | Fluid detection unit shedding |
+| F.6 | | Water leakage |
+| F.7 | | Erosion |
+| F.8 | Data processing subsystem | Signal not received | 
+| F.9 | | High latency during data processing |
+| F.10 | | Could not wake up from power saving mode |
+| F.11 | Game subsystem | Display wrong result |
+| F.12 | | High latency during the game | 
+| F.13 | Display subsystem | Display failure |
+| F.14 | | The display mode is not correct |
 
 #### 3. assess potential impact of failure	
 
-According to their impact, failure modes are classified in three levels, 1. local -- direct impacts caused by the malfunction; 2. system -- the damage on the whole system; 3. task -- the impact on the environment and surrounding people. 
+Failure modes are classified in three levels, according to their impact. 1. local -- direct impact caused by the malfunction; 2. system -- impact on the whole system; 3. task -- impact on the environment and surrounding people. 
 
-# `table to be added`
+| Failure mode index | Identified function or subsystem | Impact (a. local; b. system; c. task) |
+| --- | --- | --- |
+| F.1 | Body detection subsystem | Body detection failure | b. Fail to detect human body or long delay; c. Task failed |
+| F.2 | Sound detection subsystem | Sound detection failure | b. Fail to detect sound or long delay; c. Task failed |
+| F.3 | | Noise | b. Detect noise or irrelevant sound |
+| F.4 | Fluid detection subsystem | Fluid detection failure | b. Fail to detect fluid or long delay; c. Task failed |
+| F.5 | | Fluid detection unit shedding | a. Part of the urinal is not covered by fluid detectors; b. The device fails to interact with the user during the game |
+| F.6 | | Water leakage | a. Fluid detection units short circuit; b. Some or all fluid detection unit fail; c. Task fails |
+| F.7 | | Erosion | a. Water leakage through fluid detection units causes short circuits |
+| F.8 | Data processing subsystem | Signal not received | a. Signal is not processed; c. Task failed |
+| F.9 | | High latency during data processing | b. High latency on displaying the game result; c. Task failed |
+| F.10 | | Could not wake up from power saving mode | c. Task failed |
+| F.11 | Game subsystem | Display wrong result | b. The game result is wrong; c. Task failed |
+| F.12 | | High latency during the game | b. High latency on displaying the result; c. Task failed |
+| F.13 | Display subsystem | Display failure | b. Game result is not displayed; c. Task failed |
+| F.14 | | The display mode is not correct | b. Frame displayed is distorted; c. Task failed |
 
 #### 4. brainstorm possible causes	
 
-Now is time to analyse every failure mode and find out the reason. There are many different causes. Most of them fall into four categories: human, machine(such as components failure), method(such as software error), and material. 
+Next is to analyse every failure mode and find out the reason. There are many different causes. Most of them fall into four categories: human, machine(such as components failure), method(such as software error), and material. 
 
-# `table to be added`
+| Failure mode index | Identified function or subsystem | Impact (a. local; b. system; c. task) | Possible causes |
+| --- | --- | --- | --- |
+| F.1 | Body detection subsystem | Body detection failure | b. Fail to detect human body or long delay; c. Task failed | Body detection unit damaged |
+| F.2 | Sound detection subsystem | Sound detection failure | b. Fail to detect sound or long delay; c. Task failed | Sound detection unit damaged |
+| F.3 | | Noise | b. Detect noise or irrelevant sound | Multiple persons make sound near the device |
+| F.4 | Fluid detection subsystem | Fluid detection failure | b. Fail to detect fluid or long delay; c. Task failed | Fluid pressure is too low |
+| F.5 | | Fluid detection unit shedding | a. Part of the urinal is not covered by fluid detectors; b. The device fails to interact with the user during the game | Adhesion failure leads to fluid detection unit shedding |
+| F.6 | | Water leakage | a. Fluid detection units short circuit; b. Some or all fluid detection unit fail; c. Task fails | Some fluid detection units are not adhere to the urinal tightly | 
+| F.7 | | Erosion | a. Water leakage through fluid detection units causes short circuits | The surface of fluid detection units is eroded |
+| F.8 | Data processing subsystem | Signal not received | a. Signal is not processed; c. Task failed | Short circuit; Interface of data processing chips damaged |
+| F.9 | | High latency during data processing | b. High latency on displaying the game result; c. Task failed | Short circuit; Interface of data processing chips damaged; Signal transmission is not stable |
+| F.10 | | Could not wake up from power saving mode | c. Task failed | System is set to the wrong time; The program set the time wrong |
+| F.11 | Game subsystem | Display wrong result | b. The game result is wrong; c. Task failed | Calculation is wrong |
+| F.12 | | High latency during the game | b. High latency on displaying the result; c. Task failed | Algorithm of the game is not optimized |
+| F.13 | Display subsystem | Display failure | b. Game result is not displayed; c. Task failed | Display is damaged; The format of the input signal is wrong |
+| F.14 | | The display mode is not correct | b. Frame displayed is distorted; c. Task failed | Display mode is set wrong; The format of the input signal is wrong |
 
 #### 5. suggest corrective actions	
 
 After finding out the causes of failures, it's time to look for corrective actions to reduce the chance of malfunctions occur. It's important to consider the timing for corrective actions. The three windows are: during design, manufacture and running. 
+
+| Failure mode index | Identified function or subsystem | Impact (a. local; b. system; c. task) | Possible causes | Corrective actions (a. design; b. manufacture; c. running) |
+| --- | --- | --- | --- | --- |
+| F.1 | Body detection subsystem | Body detection failure | b. Fail to detect human body or long delay; c. Task failed | Body detection unit damaged | a. add a protection enclosure for the body detection unit; b. use better quality body detector |
+| F.2 | Sound detection subsystem | Sound detection failure | b. Fail to detect sound or long delay; c. Task failed | Sound detection unit damaged | a. add a protection enclosure for the sound detection unit; b. use a better sound detector |
+| F.3 | | Noise | b. Detect noise or irrelevant sound | Multiple persons make sound near the device | a. add electric filter or decease the detection range; c. active only when less people are nearby |
+| F.4 | Fluid detection subsystem | Fluid detection failure | b. Fail to detect fluid or long delay; c. Task failed | Fluid pressure is too low | a. decrease the thickness of the waterproof layer; b. use better fluid detector |
+| F.5 | | Fluid detection unit shedding | a. Part of the urinal is not covered by fluid detectors; b. The device fails to interact with the user during the game | Adhesion failure leads to fluid detection unit shedding | b. use better waterproof glue |
+| F.6 | | Water leakage | a. Fluid detection units short circuit; b. Some or all fluid detection unit fail; c. Task fails | Some fluid detection units are not adhere to the urinal tightly | b. make sure the waterproof glue is uniformly applied |
+| F.7 | | Erosion | a. Water leakage through fluid detection units causes short circuits | The surface of fluid detection units is eroded | b. use corrosion protective waterproof layer |
+| F.8 | Data processing subsystem | Signal not received | a. Signal is not processed; c. Task failed | Short circuit; Interface of data processing chips damaged | b. use better wire |
+| F.9 | | High latency during data processing | b. High latency on displaying the game result; c. Task failed | Short circuit; Interface of data processing chips damaged; Signal transmission is not stable | b. add extra protection at the interface |
+| F.10 | | Could not wake up from power saving mode | c. Task failed | System is set to the wrong time; The program set the time wrong | b. adjust the time during installation; b. add an API so the time can be modified |
+| F.11 | Game subsystem | Display wrong result | b. The game result is wrong; c. Task failed | Calculation is wrong | b. make the game simpler |
+| F.12 | | High latency during the game | b. High latency on displaying the result; c. Task failed | Algorithm of the game is not optimized | b. optimize the algorithm |
+| F.13 | Display subsystem | Display failure | b. Game result is not displayed; c. Task failed | Display is damaged; The format of the input signal is wrong | a. replace the display so it could match the data processing unit; b. use better display connected with waterproof wires |
+| F.14 | | The display mode is not correct | b. Frame displayed is distorted; c. Task failed | Display mode is set wrong; The format of the input signal is wrong | b. use the correct format |
+
+
 
 # `table to be added`
 
@@ -1536,7 +2204,7 @@ According to system engineering, we describe a system through its context, behav
 
 The left side of the V-model focus on the sort out all the requirements, identify subsystems, specify their functions, work out performance requirements, setup standards for interfaces. The design-manufacture at the bottom of the V-model relates to many different subjects. The final solution should be worked out by experts in the field. It should satisfy all the requirements. The right side of the V-model is focus on the design, which starts from the verification of whether all the components satisfy their requirements. After testing all the components, the next step will be the integration and verification of all subsystems. The last step is the integration and verification of the whole system, which eventually will be tested by the market and costumers. 
 
-During the process, we should pay attention to the following three aspects, detail functions into behaviours; allocate nonbehavioural requirements; maintain hierarchies and traceabilities. 
+During the process, we should pay attention to the following three aspects, detail functions into behaviours; allocate non-behavioural requirements; maintain hierarchies and traceabilities. 
 
 #### 1. Detail functions into behaviours	
 
@@ -1544,9 +2212,9 @@ Similar to the procedure discussed in chapter 5, use case behaviours can be desc
 
 According to the system engineering procedure, functions should be assigned to low level subsystems. The procedure should be iterated until enough evidence suggests the subsystems can be designed, manufactured and tested. 
 
-#### 2. Allocate nonbehavioural requirements: linked houses of quality	
+#### 2. Allocate non-behavioural requirements: linked houses of quality	
 
-Just like the behavioural requirements, nonbehavioural requirements should be allocated on subsystems as well. Some engineering characteristics, such as weight, should be allocated on every subsystem levels; other engineering characteristics, such as velocity, should be presented on the interactions between different subsystems. The process of allocation is preformed by connecting related quality houses. 
+Just like the behavioural requirements, non-behavioural requirements should be allocated on subsystems as well. Some engineering characteristics, such as weight, should be allocated on every subsystem levels; other engineering characteristics, such as velocity, should be presented on the interactions between different subsystems. The process of allocation is preformed by connecting related quality houses. 
 
 # 'pic to be added'
 
@@ -1569,7 +2237,7 @@ Listed above are mostly datum with level structures. For example, through the ma
 
 ## d) Dive and surface: a system view	
 
-Dive is to analyze the questions in details, while surface is to summarize those details. During surface, we should focus on analyzing the questions and environments in the system level. To determine the viability of the analysis, we should switch to dive and be more specific. The following table is used for the analysis.
+Dive is to analyse the questions in details, while surface is to summarize those details. During surface, we should focus on analysing the questions and environments in the system level. To determine the viability of the analysis, we should switch to dive and be more specific. The following table is used for the analysis.
 
 # `table to be added`
 
