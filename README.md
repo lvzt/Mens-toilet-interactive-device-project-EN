@@ -242,19 +242,6 @@ For our project customers may concern
 
 After receiving enough feedback from customers, it’s necessary to process the information and summarize the project objectives. The methods are diving and surfacing. To dive is to focus on details; To Surface is to summarize the details and form an abstract concept. In practice it's better to put related subjects together, combine and summarize them. 
 
-
-
-***
-
-
-way to apply the concept is to separate  into two steps. The first one is to put relevant comments in one group. Then write down a name or sentence above those comments.
-
-#`pic to be added`
-
-Finally, the result of summary should be a table showing all concerns from customers.
-***
-
-
 The goal of our project is to design a gaming device installed on toilets in shopping malls, with minimum modification to the environment during the installation. The game should be fun to play. The device should be robust, water-proof, easy to clean and maintenance, having good sensitivity. Measures can be taken to prevent long time occupation of the toilet.
 
 ## c) Define functional requirements
@@ -570,7 +557,7 @@ The sorted product targets are
 
 The pie chart of the results
 
-# `pic to be added`
+![](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN/blob/master/Image/16%20Pie%20chart.jpg)
 
 ### iv. Benchmark competition on measures of effectiveness	
 
@@ -601,7 +588,7 @@ Evaluation of the three products (1-5, higher score represents better performanc
 
 Displayed in chart
 
-# `pic to be added`
+![](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN/blob/master/Image/17%20Radar%20chart.jpg)
 
 ## b) Translate to technical requirements	
 
@@ -1088,8 +1075,6 @@ Finally, we place the weighed attributes and candidates in one table and evaluat
 
 After analyzing the above matrix, we conclude that, we will choose the flat multi-point detector over the ball shape multi-point detector; choosing between ultra-sonic and infrared detector requires more analysis, or maybe we will try them both; choosing between mini pc and Arduino + pc also requires more analysis; we choose python over C# because python is more flexible. 
 
-# vi and vii need to be fixed!!
-
 ## b) Optimize parameters	
 
 Usually this step is performed in the design revision circle. Because our project here is relatively simple, instead of using discrete analysis like before, we analyze the alternatives continuously, i.e., for each alternative we study the design for every engineering characteristics and optimize the parameters. In chapter 2 we already worked out the technical requirements,
@@ -1365,7 +1350,29 @@ Another way to analyse the system behaviour is to identify system states. When s
 
 The corresponding graph made by using IBM Rational Rhapsody is presented below
 
-# `graph to be added`
+Body detection subsystem
+
+![Body detection subsystem](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN/blob/master/Image/04%20DetectingPeople_SD.jpg)
+
+Sound detection subsystem
+
+![Sound detection subsystem](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN/blob/master/Image/05%20DetectingSound_SD.jpg)
+
+Fluid detection subsystem
+
+![Fluid detection subsystem](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN/blob/master/Image/06%20DetectingUrine_SD.jpg)
+
+Display subsystem
+
+![Display subsystem](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN/blob/master/Image/07%20Display_SD.jpg)
+
+Data processing subsystem
+
+![Data processing subsystem](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN/blob/master/Image/08%20DataProcess_SD.jpg)
+
+Game subsystem
+
+![Game subsystem](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN/blob/master/Image/09%20Game_SD.jpg)
 
 ### v. Set targets for behaviour	
 
@@ -2027,29 +2034,58 @@ After finding out the causes of failures, it's time to look for corrective actio
 | F.13 | Display subsystem | Display failure | b. Game result is not displayed; c. Task failed | Display is damaged; The format of the input signal is wrong | a. replace the display so it could match the data processing unit; b. use better display connected with waterproof wires |
 | F.14 | | The display mode is not correct | b. Frame displayed is distorted; c. Task failed | Display mode is set wrong; The format of the input signal is wrong | b. use the correct format |
 
+Although we have gotten the result of the analysis, it doesn't mean the concerning systems have to be modified. We need to estimate the cost and evaluate the benefit for the action.
 
-
-# `table to be added`
-
-Although we have gotten the result of the analysis, it doesn't mean the related systems have to be modified. We need to estimate the cost and evaluate the benefit of the modifications.
-
-#### 6. rate the severity of impact	
+#### 6. rate the severity of impact
 
 Next we need to estimate the probabilities of the failures occur and the damage they may cause. The table below shows the rate of the severity of impact.
 
-# `table to be added`
+| Severity | Description | Explanation |
+| --- | --- | --- |
+| 1 | None | Functions deviate within the tolerance |
+| 2 | Slight | Problems can be fixed during manufacture |
+| 3 | Extremely low | Problems can be fixed within 10 minutes |
+| 4 | Very low | Problems can be fixed within half an hour |
+| 5 | Low | Problems can be fixed within one hour |
+| 6 | Medium | Problems can be fixed within 4 hours |
+| 7 | High | Problems are not fixable. Part of the device malfunctions |
+| 8 | Dangerous (with alarm) | The device can cause injury of the user or prople nearby. Alarm will be triggered in advance |
+| 9 | Dangerous (without alarm) | The device can cause injury of the user or prople nearby. Alarm will not be triggered |
 
 #### 7. Rate the likelihood of causal occurrence	
 
 To rate the likelihood of causal occurrence, we use the table below. Here MTTF is mean time between failures. 
 
-# `table to be added`
+| Possibility | Description |
+| --- | --- |
+| 1 | The failure time is 50 times longer than user required |
+| 2 | The failure time is 20 times longer than user required |
+| 3 | The failure time is 10 times longer than user required |
+| 4 | The failure time is 6 times longer than user required |
+| 5 | The failure time is 4 times longer than user required |
+| 6 | The failure time is 2 times longer than user required |
+| 7 | The failure time is same as user required |
+| 8 | The failure time is 60% shorter than user required |
+| 9 | The failure time is 30% shorter than user required |
+| 10 | The failure time is 10% shorter than user required |
 
 #### 8. Assess the risks	
 
 For a simple project, risks can be analysed using using a two dimensional table, one dimensional corresponds to likelihood; the other corresponds to severity. To assess the risks, simply multiply the values along the two axis gives the risk priority number(RPN), i.e., likelihood * severity = RPN.
 
-# `table to be added` 
+| | | | | | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
+| 10 | 10 | 20 | 30 | 40 | 50 | 60 | 70 | 80 | 90 | 100 |
+| 9 | 9 | 18 | 27 | 36 | 45 | 54 | 63 | 72 | 81 | 90 |
+| 8 | 8 | 16 | 24 | 32 | 40 | 48 | 56 | 64 | 72 | 80 |
+| 7 | 7 | 14 | 21 | 28 | 35 | 42 | 49 | 56 | 63 | 70 |
+| 6 | 6 | 12 | 18 | 24 | 30 | 36 | 42 | 48 | 54 | 60 |
+| 5 | 5 | 10 | 15 | 20 | 25 | 30 | 35 | 40 | 45 | 50 |
+| 4 | 4 | 8 | 12 | 16 | 20 | 24 | 28 | 32 | 36 | 40 |
+| 3 | 3 | 6 | 9 | 12 | 15 | 18 | 21 | 24 | 27 | 30 |
+| 2 | 2 | 4 | 6 | 8 | 10 | 12 | 14 | 16 | 18 | 20 |
+| 1 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+| | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 
 #### 9. Prioritize the action	
 
@@ -2057,18 +2093,55 @@ The last step is to prioritize the action. It's better to find solutions for ris
 
 For our project, the priorities are listed in the table below
 
-# `table to be added`
+| Failure mode index | Identified function or subsystem | Impact (a. local; b. system; c. task) | Possible causes | Corrective actions (a. design; b. manufacture; c. running) | Impact level | Likelihood | Risk factor | Action priority |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| F.1 | Body detection subsystem | Body detection failure | b. Fail to detect human body or long delay; c. Task failed | Body detection unit damaged | a. add a protection enclosure for the body detection unit; b. use better quality body detector | 8 | 4 | 32 | Medium |
+| F.2 | Sound detection subsystem | Sound detection failure | b. Fail to detect sound or long delay; c. Task failed | Sound detection unit damaged | a. add a protection enclosure for the sound detection unit; b. use a better sound detector | 8 | 4 | 32 | Medium | 
+| F.3 | | Noise | b. Detect noise or irrelevant sound | Multiple persons make sound near the device | a. add electric filter or decease the detection range; c. active only when less people are nearby | 3 | 7 | 21 | Low |
+| F.4 | Fluid detection subsystem | Fluid detection failure | b. Fail to detect fluid or long delay; c. Task failed | Fluid pressure is too low | a. decrease the thickness of the waterproof layer; b. use better fluid detector | 8 | 4 | 32 | Medium |
+| F.5 | | Fluid detection unit shedding | a. Part of the urinal is not covered by fluid detectors; b. The device fails to interact with the user during the game | Adhesion failure leads to fluid detection unit shedding | b. use better waterproof glue | 5 | 7 | 35 | Medium |
+| F.6 | | Water leakage | a. Fluid detection units short circuit; b. Some or all fluid detection unit fail; c. Task fails | Some fluid detection units are not adhere to the urinal tightly | b. make sure the waterproof glue is uniformly applied | 8 | 8 | 64 | High |
+| F.7 | | Erosion | a. Water leakage through fluid detection units causes short circuits | The surface of fluid detection units is eroded | b. use corrosion protective waterproof layer | 8 | 8 | 64 | High |
+| F.8 | Data processing subsystem | Signal not received | a. Signal is not processed; c. Task failed | Short circuit; Interface of data processing chips damaged | b. use better wire | 8 | 4 | 32 | Medium |
+| F.9 | | High latency during data processing | b. High latency on displaying the game result; c. Task failed | Short circuit; Interface of data processing chips damaged; Signal transmission is not stable | b. add extra protection at the interface | 2 | 7 | 14 | Very low | 
+| F.10 | | Could not wake up from power saving mode | c. Task failed | System is set to the wrong time; The program set the time wrong | b. adjust the time during installation; b. add an API so the time can be modified | 2 | 5 | 10 | Very low |
+| F.11 | Game subsystem | Display wrong result | b. The game result is wrong; c. Task failed | Calculation is wrong | b. make the game simpler | 2 | 5 | 10 | Very low |
+| F.12 | | High latency during the game | b. High latency on displaying the result; c. Task failed | Algorithm of the game is not optimized | b. optimize the algorithm | 2 | 5 | 10 | Very low |
+| F.13 | Display subsystem | Display failure | b. Game result is not displayed; c. Task failed | Display is damaged; The format of the input signal is wrong | a. replace the display so it could match the data processing unit; b. use better display connected with waterproof wires | 8 | 4 | 32 | Medium |
+| F.14 | | The display mode is not correct | b. Frame displayed is distorted; c. Task failed | Display mode is set wrong; The format of the input signal is wrong | b. use the correct format | 2 | 5 | 10 | Very low |
 
 # 7. Execute the design	
 
-From now on, we will shift the focus towards project managements. In reality, no matter how perfect the design is, there will be many unexpected obstacles appear in practice. It's important to have a well organised team that can react to the changing of the environment promptly. It's necessary to carefully ponder the interaction between different subjects base on the view of the whole system.
+From now on, we will shift the focus towards project managements. In reality, no matter how perfect the design is, the team will encounter many unexpected obstacles in practice. It's important to have a well organised team that can respond to changes of environment promptly. It's important to develop a systematic view on the changes, based on the interaction between different subjects.
 
 ## a) Schedule the project and track progress	
 ### i. Develop the task list (work breakdown structure)	
 
-The main task of the project manager is to define the project category, and identify all the tasks to be done within the category. If the estimated cost exceeds the budget, it's necessary to find a way to reduce the cost, or negotiate with the investor to increase the budget. 
+The main task of the project manager is to define the project category, and then identify all the tasks to be done within the category. If the estimated cost exceeds the budget, it's necessary to find a way to reduce the cost, or negotiate with the investor to increase the budget. 
 
 Here the first step is to develop a task list for all tasks within the category. Tasks can be decomposed and sorted base on their ranks. 
+
+| **System design** | | |
+| --- | --- | --- |
+| | **Develop subsystem requirements** | |
+| **Design, manufacture, test subsystems** | | |
+| | **Develop body detection system** | |
+| | | Purchase body detection system |
+| | | Install body detection system |
+| | | Test body detection system |
+| | **Develop sound detection system** | |
+| | | Purchase sound detection system |
+| | | Install sound detection system |
+| | | Test sound detection system |
+| | **Develop fluid detection system** | |
+| | | Purchase fluid detection system |
+| | | Design fluid direction detection system |
+
+
+
+
+
+
 
 # `table to be added`
 
