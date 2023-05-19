@@ -20,7 +20,7 @@
 ### [ii. Document the context of the system](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#ii-document-the-context-of-the-system-1)
 ### [iii. Study the current context](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#iii-study-the-current-context-1)
 ### [iv. Collect customer comments](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#iv-collect-customer-comments-1)
-### [v. Summarize the project (product) objectives](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#v-summarize-the-project--product-objectives-1)
+### [v. Summarize the project (product) objectives](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#v-summarize-the-projectproduct-objectives)
 ## [c) Define functional requirements](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#c-define-functional-requirements-1)
 ### [i. Collect use cases](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#i-collect-use-cases-1)
 ### [ii. Prioritize use cases](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#ii-prioritize-use-cases-1)
