@@ -70,7 +70,7 @@
 ### [i. Define the product family](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#i-define-the-product-family-1)
 # [5. Develop the architecture](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#5-develop-the-architecture-1)
 ## [a) Design the behaviour](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#a-design-the-behaviour-1)
-### [i. Review use cases, context, and functional requirements](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#i-review-use-cases,-context-and-functional-requirements-1)
+### [i. Review use cases, context, and functional requirements](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#i-review-use-cases-context-and-functional-requirements-1)
 ### [ii. Map behaviours to subsystems](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#ii-map-behaviours-to-subsystems-1)
 ### [iii. Identify messages, triggers, and interfaces](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#iii-identify-messages-triggers-and-interfaces-1)
 ### [iv. Identify system states](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#iv-identify-system-states-1)
