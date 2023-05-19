@@ -116,7 +116,7 @@
 #### [9. Prioritize the action](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#9-prioritize-the-action-1)
 # [7. Execute the design](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#7-execute-the-design-1)
 ## [a) Schedule the project and track progress](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#a-schedule-the-project-and-track-progress-1)
-### [i. Develop the task list (work breakdown structure)](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#i-develop-the-task-list--work-breakdown-structure)-1)
+### [i. Develop the task list (work breakdown structure)](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#i-develop-the-task-list-work-breakdown-structure)
 ### [ii. Estimate durations](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#ii-estimate-durations-1)
 ### [iii. Task percent complete](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#iii-task-percent-complete-1)
 ### [iv. Identify task inputs, outputs, and deliverables](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#iv-identify-task-inputs,-outputs,-and-deliverables-1)
