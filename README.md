@@ -129,7 +129,7 @@
 ### [i. Backtracking strategies](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#i-backtracking-strategies-1)
 ## [b) Iterate with improvement](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#b-iterate-with-improvement-1)
 ## [c) Iterate by level](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#c-iterate-by-level-1)
-### [i. Level-by-level decomposition: the Vee diagram](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#i-level-by-level-decomposition:-the-vee-diagram-1)
+### [i. Level-by-level decomposition: the Vee diagram](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#i-level-by-level-decomposition-the-vee-diagram-1)
 #### [1. Detail functions into behaviours](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#1-detail-functions-into-behaviours-1)
 #### [2. Allocate nonbehavioural requirements: linked houses of quality](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#2-allocate-nonbehavioural-requirements:-linked-houses-of-quality-1)
 #### [3. Maintain hierarchies and traceabilities](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#3-maintain-hierarchies-and-traceabilities-1)
