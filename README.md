@@ -10,133 +10,134 @@
 # [Preface](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#preface-1)
 # [1. Define the problem](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#1-define-the-problem-1)
 ## [a) Define the project](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN##a-define-the-project-1)
-### i. Select the project
-### ii. Sketch the concept
-### iii. Define and tailor the process
-### iv. Define the owner, the customer and the user
-### v. Write a mission statement
-## b) Define the context
-### i. Define the system boundary
-### ii. Document the context of the system
-### iii. Study the current context
-### iv. Collect customer comments
-### v. Summarize the project (product) objectives
-## c) Define functional requirements	
-### i. Collect use cases	
-### ii. Prioritize use cases	
-### iii. Describe use case behaviours	
-### iv. Summarize functional requirements from use cases
-### v. Repeat for secondary use cases	
-### vi. Finalize requirements	
-# 2. Measurement the need and set targets	
-## a) Measure the need	
-### i. Determine measure of effectiveness	
-### ii. Apply the Goal-Question-Metric method
-#### 1. Identify the goals of the measurement	
-#### 2. Refine the goals with questions	
-#### 3. Specify the metrics	
-#### 4. Develop Data collection methods	
-### iii. Weigh the product objectives	
-### iv. Benchmark competition on measures of effectiveness	
-## b) Translate to technical requirements	
-### i. The house of quality	
-#### 1. Identify engineering characteristics	
-#### 2. Map engineering characteristics to customer attributes	
-#### 3. Document engineering interrelationships	
-#### 4. Identify units of measure and benchmark competitions	
-#### 5. Determine target technical performance measure	
-### ii. Collect and rationalize system-level requirements	
-## c) Identify the customer value proposition	
-# 3. Explore the design space	
-## a) Discover concepts	
-### i. Clarify the problem and decompose the functions	
-### ii. Brainstorm and research	
-### iii. Organize concept fragments	
-### iv. Prune and expand	
-## b) Explore concepts	
-### i. Combine concept fragments	
-### ii. Generate integrated concepts	
-## c) Identify subsystem	
-# 4. Optimize design choices	
-## a) Select concepts	
-### i. Identify alternatives	
-### ii. Identify attributes	
-### iii. Screen the alternatives	
-### iv. Rate alternatives	
-### v. Weigh the attributes	
-### vi. Calculate weight and sort	
-### vii. Score and select alternatives	
-## b) Optimize parameters	
-### i. Define the product family	
-# 5. Develop the architecture	
-## a) Design the behaviour	
-### i. Review use cases, context, and functional requirements	
-### ii. Map behaviours to subsystems	
-### iii. Identify messages, triggers, and interfaces	
-### iv. Identify system states	
-### v. Set targets for behaviour	
-### vi. Extract functional requirements to originating requirements	
-### vii. Trace-derived requirements to originating requirements	
-### viii. The centrality of the operational description template	
-## b) Design the flow and control	
-### i. Identify functional relationships	
-### ii. Summarize state changes	
-## c) Design the structure	
-### i. Identify interfaces and finalize subsystems	
-### ii. Document links	
-### iii. Identify emergent interactions	
-### iv. Sketch a design concept	
-### v. Create a rough-cut bill of materials	
-### vi. Create a rough-cut reliability estimate	
-### vii. Allocate target technical performance measure to subsystem	
-# 6. Validate the design	
-## a) Verify requirements	
-### i. Conduct design reviews	
-#### 1. Determine if entry criteria are met	
-#### 2. Schedule the review meeting	
-#### 3. Present the design	
-#### 4. Collect review panel comments	
-#### 5. Use exit criteria to assess whether the review was passed	
-#### 6. Reschedule if the review did not pass	
-### ii. Develop the test plan	
-#### 1. Identify behavioural test sequence	
-#### 2. Develop behavioural test methodology	
-#### 3. Repeat for nonbehavioural tests	
-#### 4. Map test activities to system requirements	
-## b) Manage risks	
-### i. Conduct failure modes and effects analysis	
-#### 1. Select functions	
-#### 2. identify failure modes	
-#### 3. assess potential impact of failure	
-#### 4. brainstorm possible causes	
-#### 5. suggest corrective actions	
-#### 6. rate the severity of impact	
-#### 7. Rate the likelihood of causal occurrence	
-#### 8. Assess the risks	
-#### 9. Prioritize the action	
-# 7. Execute the design	
-## a) Schedule the project and track progress	
-### i. Develop the task list (work breakdown structure)	
-### ii. Estimate durations	
-### iii. Task percent complete	
-### iv. Identify task inputs, outputs, and deliverables	
-### v. Establish task precedence relationships	
-### vi. Schedule the project	
-### vii. Display a Gantt chart	
-### viii. Adjust the schedule for team availability	
-## b) Conduct management reviews	
-# 8. Iterate the design process	
-## a) Iterate until feasible	
-### i. Backtracking strategies	
-## b) Iterate with improvement	
-## c) Iterate by level	
-### i. Level-by-level decomposition: the Vee diagram	
-#### 1. Detail functions into behaviours	
-#### 2. Allocate nonbehavioural requirements: linked houses of quality	
-#### 3. Maintain hierarchies and traceabilities	
-## d) Dive and surface: a system view	
-### Appendix 1 IBM Rational Rhapsody - Design black box system model	
-### Appendix 2 IBM Rational Rhapsody - Design white box system model
+### [i. Select the project](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###i-select-the-project-1)
+### [ii. Sketch the concept](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###ii-sketch-the-concept-1)
+### [iii. Define and tailor the process](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###iii-define-and-tailor-the-process-1)
+### [iv. Define the owner, the customer and the user](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###iv-define-the-owner,-the-customer-and-the-user-1)
+### [v. Write a mission statement](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###v-write-a-mission-statement-1)
+## [b) Define the context](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN##b-define-the-context-1)
+### [i. Define the system boundary](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###i-define-the-system-boundary-1)
+### [ii. Document the context of the system](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###ii-document-the-context-of-the-system-1)
+### [iii. Study the current context](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###iii-study-the-current-context-1)
+### [iv. Collect customer comments](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###iv-collect-customer-comments-1)
+### [v. Summarize the project (product) objectives](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###v-summarize-the-project--product-objectives-1)
+## [c) Define functional requirements](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN##c-define-functional-requirements-1)
+### [i. Collect use cases](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###i-collect-use-cases-1)
+### [ii. Prioritize use cases](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###ii-prioritize-use-cases-1)
+### [iii. Describe use case behaviours](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###iii-describe-use-case-behaviours-1)
+### [iv. Summarize functional requirements from use cases](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###iv-summarize-functional-requirements-from-use-cases-1)
+### [v. Repeat for secondary use cases](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###v-repeat-for-secondary-use-cases-1)
+### [vi. Finalize requirements](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###vi-finalize-requirements-1)
+# [2. Measurement the need and set targets](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#2-measurement-the-need-and-set-targets-1)
+## [a) Measure the need](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN##a-measure-the-need-1)
+### [i. Determine measure of effectiveness](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###i-determine-measure-of-effectiveness-1)
+### [ii. Apply the Goal-Question-Metric method](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###ii-apply-the-goal-question-metric-method-1)
+#### [1. Identify the goals of the measurement](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN####1-identify-the-goals-of-the-measurement-1)
+#### [2. Refine the goals with questions](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN####2-refine-the-goals-with-questions-1)
+#### [3. Specify the metrics](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN####3-specify-the-metrics-1)
+#### [4. Develop Data collection methods](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN####4-develop-data-collection-methods-1)
+### [iii. Weigh the product objectives](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###iii-weigh-the-product-objectives-1)
+### [iv. Benchmark competition on measures of effectiveness](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###iv-benchmark-competition-on-measures-of-effectiveness-1)
+## [b) Translate to technical requirements](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN##b-translate-to-technical-requirements-1)
+### [i. The house of quality](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###i-the-house-of-quality-1)
+#### [1. Identify engineering characteristics](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN####1-identify-engineering-characteristics-1)
+#### [2. Map engineering characteristics to customer attributes](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN####2-map-engineering-characteristics-to-customer-attributes-1)
+#### [3. Document engineering interrelationships](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN####3-document-engineering-interrelationships-1)
+#### [4. Identify units of measure and benchmark competitions](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN####4-identify-units-of-measure-and-benchmark-competitions-1)
+#### [5. Determine target technical performance measure](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN####5-determine-target-technical-performance-measure-1)
+### [ii. Collect and rationalize system-level requirements](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###ii-collect-and-rationalize-system-level-requirements-1)
+## [c) Identify the customer value proposition](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN##c-identify-the-customer-value-proposition-1)
+# [3. Explore the design space](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#3-explore-the-design-space-1)
+## [a) Discover concepts](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN##a-discover-concepts-1)
+### [i. Clarify the problem and decompose the functions](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###i-clarify-the-problem-and-decompose-the-functions-1)
+### [ii. Brainstorm and research](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###ii-brainstorm-and-research-1)
+### [iii. Organize concept fragments](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###iii-organize-concept-fragments-1)
+### [iv. Prune and expand](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###iv-prune-and-expand-1)
+## [b) Explore concepts](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN##b-explore-concepts-1)
+### [i. Combine concept fragments](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###i-combine-concept-fragments-1)
+### [ii. Generate integrated concepts](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###ii-generate-integrated-concepts-1)
+## [c) Identify subsystem](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN##c-identify-subsystem-1)
+# [4. Optimize design choices](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#4-optimize-design-choices-1)
+## [a) Select concepts](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN##a-select-concepts-1)
+### [i. Identify alternatives](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###i-identify-alternatives-1)
+### [ii. Identify attributes](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###ii-identify-attributes-1)
+### [iii. Screen the alternatives](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###iii-screen-the-alternatives-1)
+### [iv. Rate alternatives](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###iv-rate-alternatives-1)
+### [v. Weigh the attributes](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###v-weigh-the-attributes-1)
+### [vi. Calculate weight and sort](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###vi-calculate-weight-and-sort-1)
+### [vii. Score and select alternatives](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###vii-score-and-select-alternatives-1)
+## [b) Optimize parameters](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN##b-optimize-parameters-1)
+### [i. Define the product family](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###i-define-the-product-family-1)
+# [5. Develop the architecture](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#5-develop-the-architecture-1)
+## [a) Design the behaviour](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN##a-design-the-behaviour-1)
+### [i. Review use cases, context, and functional requirements](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###i-review-use-cases,-context,-and-functional-requirements-1)
+### [ii. Map behaviours to subsystems](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###ii-map-behaviours-to-subsystems-1)
+### [iii. Identify messages, triggers, and interfaces](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###iii-identify-messages,-triggers,-and-interfaces-1)
+### [iv. Identify system states](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###iv-identify-system-states-1)
+### [v. Set targets for behaviour](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###v-set-targets-for-behaviour-1)
+### [vi. Extract functional requirements to originating requirements](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###vi-extract-functional-requirements-to-originating-requirements-1)
+### [vii. Trace-derived requirements to originating requirements](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###vii-trace-derived-requirements-to-originating-requirements-1)
+### [viii. The centrality of the operational description template](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###viii-the-centrality-of-the-operational-description-template-1)
+## [b) Design the flow and control](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN##b-design-the-flow-and-control-1)
+### [i. Identify functional relationships](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###i-identify-functional-relationships-1)
+### [ii. Summarize state changes](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###ii-summarize-state-changes-1)
+## [c) Design the structure](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN##c-design-the-structure-1)
+### [i. Identify interfaces and finalize subsystems](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###i-identify-interfaces-and-finalize-subsystems-1)
+### [ii. Document links](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###ii-document-links-1)
+### [iii. Identify emergent interactions](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###iii-identify-emergent-interactions-1)
+### [iv. Sketch a design concept](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###iv-sketch-a-design-concept-1)
+### [v. Create a rough-cut bill of materials](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###v-create-a-rough-cut-bill-of-materials-1)
+### [vi. Create a rough-cut reliability estimate](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###vi-create-a-rough-cut-reliability-estimate-1)
+### [vii. Allocate target technical performance measure to subsystem](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###vii-allocate-target-technical-performance-measure-to-subsystem-1)
+# [6. Validate the design](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#6-validate-the-design-1)
+## [a) Verify requirements](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN##a-verify-requirements-1)
+### [i. Conduct design reviews](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###i-conduct-design-reviews-1)
+#### [1. Determine if entry criteria are met](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN####1-determine-if-entry-criteria-are-met-1)
+#### [2. Schedule the review meeting](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN####2-schedule-the-review-meeting-1)
+#### [3. Present the design](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN####3-present-the-design-1)
+#### [4. Collect review panel comments](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN####4-collect-review-panel-comments-1)
+#### [5. Use exit criteria to assess whether the review was passed](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN####5-use-exit-criteria-to-assess-whether-the-review-was-passed-1)
+#### [6. Reschedule if the review did not pass](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN####6-reschedule-if-the-review-did-not-pass-1)
+### [ii. Develop the test plan](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###ii-develop-the-test-plan-1)
+#### [1. Identify behavioural test sequence](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN####1-identify-behavioural-test-sequence-1)
+#### [2. Develop behavioural test methodology](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN####2-develop-behavioural-test-methodology-1)
+#### [3. Repeat for nonbehavioural tests](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN####3-repeat-for-nonbehavioural-tests-1)
+#### [4. Map test activities to system requirements](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN####4-map-test-activities-to-system-requirements-1)
+## [b) Manage risks](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN##b-manage-risks-1)
+### [i. Conduct failure modes and effects analysis](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###i-conduct-failure-modes-and-effects-analysis-1)
+#### [1. Select functions](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN####1-select-functions-1)
+#### [2. identify failure modes](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN####2-identify-failure-modes-1)
+#### [3. assess potential impact of failure](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN####3-assess-potential-impact-of-failure-1)
+#### [4. brainstorm possible causes](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN####4-brainstorm-possible-causes-1)
+#### [5. suggest corrective actions](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN####5-suggest-corrective-actions-1)
+#### [6. rate the severity of impact](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN####6-rate-the-severity-of-impact-1)
+#### [7. Rate the likelihood of causal occurrence](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN####7-rate-the-likelihood-of-causal-occurrence-1)
+#### [8. Assess the risks](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN####8-assess-the-risks-1)
+#### [9. Prioritize the action](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN####9-prioritize-the-action-1)
+# [7. Execute the design](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#7-execute-the-design-1)
+## [a) Schedule the project and track progress](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN##a-schedule-the-project-and-track-progress-1)
+### [i. Develop the task list (work breakdown structure)](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###i-develop-the-task-list--work-breakdown-structure)-1)
+### [ii. Estimate durations](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###ii-estimate-durations-1)
+### [iii. Task percent complete](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###iii-task-percent-complete-1)
+### [iv. Identify task inputs, outputs, and deliverables](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###iv-identify-task-inputs,-outputs,-and-deliverables-1)
+### [v. Establish task precedence relationships](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###v-establish-task-precedence-relationships-1)
+### [vi. Schedule the project](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###vi-schedule-the-project-1)
+### [vii. Display a Gantt chart](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###vii-display-a-gantt-chart-1)
+### [viii. Adjust the schedule for team availability](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###viii-adjust-the-schedule-for-team-availability-1)
+## [b) Conduct management reviews](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN##b-conduct-management-reviews-1)
+# [8. Iterate the design process](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#8-iterate-the-design-process-1)
+## [a) Iterate until feasible](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN##a-iterate-until-feasible-1)
+### [i. Backtracking strategies](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###i-backtracking-strategies-1)
+## [b) Iterate with improvement](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN##b-iterate-with-improvement-1)
+## [c) Iterate by level](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN##c-iterate-by-level-1)
+### [i. Level-by-level decomposition: the Vee diagram](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###i-level-by-level-decomposition:-the-vee-diagram-1)
+#### [1. Detail functions into behaviours](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN####1-detail-functions-into-behaviours-1)
+#### [2. Allocate nonbehavioural requirements: linked houses of quality](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN####2-allocate-nonbehavioural-requirements:-linked-houses-of-quality-1)
+#### [3. Maintain hierarchies and traceabilities](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN####3-maintain-hierarchies-and-traceabilities-1)
+## [d) Dive and surface: a system view](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN##d-dive-and-surface:-a-system-view-1)
+### [Appendix 1 IBM Rational Rhapsody - Design black box system model](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###appendix-1-ibm-rational-rhapsody---design-black-box-system-model-1)
+### [Appendix 2 IBM Rational Rhapsody - Design white box system model](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN###appendix-2-ibm-rational-rhapsody---design-white-box-system-model-1)
+
 
 # Preface
 This project is based on the process described in the book - Getting Design Right. The author of the book, Dr. Peter L. Jackson, is the professor in School of Operations Research and Information Engineering in Cornell University. This project uses similar terminology as in the book. Readers should focus on the essence of the design, rather than specific terms. 
