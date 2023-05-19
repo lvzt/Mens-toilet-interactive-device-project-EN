@@ -1520,7 +1520,7 @@ From the matrix above we can find the original requirements that do no have a co
 
 | No. | Derived requirements | function name | Trace to |
 | --- | --- | --- | --- |
-| Dr 18 | The system can receive the ad to be displayed | Message receiving | OR 2 |
+| DR 18 | The system can receive the ad to be displayed | Message receiving | OR 2 |
 
 ### viii. The centrality of the operational description template	
 
