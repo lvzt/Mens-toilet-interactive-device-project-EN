@@ -7,9 +7,9 @@
 **_Copyright belongs to the author_**
 ***
 # Contents
-# Preface
-# 1. Define the problem
-## a) Define the project
+# [Preface](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#preface-1)
+# [1. Define the problem](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#1-define-the-problem-1)
+## [a) Define the project](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN##a-define-the-project-1)
 ### i. Select the project
 ### ii. Sketch the concept
 ### iii. Define and tailor the process
