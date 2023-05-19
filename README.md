@@ -134,7 +134,7 @@
 #### [1. Detail functions into behaviours](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#1-detail-functions-into-behaviours-1)
 #### [2. Allocate nonbehavioural requirements: linked houses of quality](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#2-allocate-nonbehavioural-requirements:-linked-houses-of-quality-1)
 #### [3. Maintain hierarchies and traceabilities](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#3-maintain-hierarchies-and-traceabilities-1)
-## [d) Dive and surface: a system view](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#d-dive-and-surface:-a-system-view-1)
+## [d) Dive and surface: a system view](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#d-dive-and-surface-a-system-view-1)
 ### [Appendix 1 IBM Rational Rhapsody - Design black box system model](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#appendix-1-ibm-rational-rhapsody---design-black-box-system-model-1)
 ### [Appendix 2 IBM Rational Rhapsody - Design white box system model](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#appendix-2-ibm-rational-rhapsody---design-white-box-system-model-1)
 
