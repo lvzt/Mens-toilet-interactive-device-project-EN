@@ -86,7 +86,7 @@
 ### [ii. Document links](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#ii-document-links-1)
 ### [iii. Identify emergent interactions](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#iii-identify-emergent-interactions-1)
 ### [iv. Sketch a design concept](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#iv-sketch-a-design-concept-1)
-### [v. Create a rough-cut bill of materials](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#v-create-a-rough-cut-bill-of-materials)
+### [v. Create a rough-cut bill of materials](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#v-create-a-rough-cut-bill-of-materials-1)
 ### [vi. Allocate target technical performance measure to subsystem](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#vi-allocate-target-technical-performance-measure-to-subsystem-1)
 # [6. Validate the design](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#6-validate-the-design-1)
 ## [a) Verify requirements](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#a-verify-requirements-1)
