@@ -118,7 +118,7 @@
 ### [i. Develop the task list (work breakdown structure)](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#i-develop-the-task-list-work-breakdown-structure-1)
 ### [ii. Estimate durations](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#ii-estimate-durations-1)
 ### [iii. Task percent complete](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#iii-task-percent-complete-1)
-### [iv. Identify task inputs, outputs, and deliverables](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#iv-identify-task-inputs,-outputs,-and-deliverables-1)
+### [iv. Identify task inputs, outputs, and deliverables](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#iv-identify-task-inputs-outputs-and-deliverables-1)
 ### [v. Establish task precedence relationships](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#v-establish-task-precedence-relationships-1)
 ### [vi. Schedule the project](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#vi-schedule-the-project-1)
 ### [vii. Display a Gantt chart](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#vii-display-a-gantt-chart-1)
