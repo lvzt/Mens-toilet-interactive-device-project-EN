@@ -2074,13 +2074,7 @@ Here the first step is to develop a task list for all tasks within the category.
 | | | Purchase fluid detection system |
 | | | Design fluid direction detection system |
 </br>
-</br>
-![](/Image/Develop%20the%20task%20list.jpg)
-</br>
-We list all the low rank activities in a new table and give each of them a number.</br>
-![](/Image/Develop%20the%20task%20list%202.jpg)
-</br>
-</br>
+
 ### ii. Estimate durations	
 
 To work out the schedule, it's necessary to estimate the time for each task. This estimation is based on experience, which can be modified during the action. For our project the estimation is listed in the table below.
