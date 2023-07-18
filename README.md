@@ -2074,6 +2074,8 @@ Here the first step is to develop a task list for all tasks within the category.
 | | | Purchase fluid detection system |
 | | | Design fluid direction detection system |
 </br>
+![](/Image/Develop%20the%20task%20list.jpg)
+</br>
 
 ### ii. Estimate durations	
 
