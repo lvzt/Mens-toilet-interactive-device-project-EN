@@ -597,11 +597,11 @@ The next step is to translate the product objectives to engineering characterist
 
 ### i. The house of quality	
 
-One way to facilitate effective communication is use the house of quality. It is a matrix which determines the relation between customer's anticipations and engineering characteristics. This matrix reveals all the questions that worth to be discussed by designers and engineers.
+One way to facilitate effective communication is use the house of quality. It is a matrix which determines the relation between customer's anticipations and engineering characteristics. This matrix reveals all the questions that worth to be discussed by designers and engineers.<br/>
 
-![](../Image/The house of quality.jpg)
+![](/Image/The%20house%20of%20quality.jpg)
 
-The aim of using house of quality is to determine target technical performance measure rather than set targets or make decisions. The goal is to make sure that the product objectives matches customer anticipations. 
+The aim of using house of quality is to determine target technical performance measure rather than set targets or make decisions. The goal is to make sure that the product objectives matches customer anticipations.<br/>
 
 It is constructed through the following steps:
 1. Identify and classify the product objectives
@@ -1524,9 +1524,9 @@ From the matrix above we can find the original requirements that do no have a co
 
 ### viii. The centrality of the operational description template	
 
-Now we switch back to the operational description template. User is on the left. Based on the user behaviour we can define the norm for the user interface, which can be used for editing the user manual. The requirement norm for each subsystem can be defined based on their behaviour description. What's more, through analysing the template, the test norm and interface requirement norm can also be defined.
+Now we switch back to the operational description template. User is on the left. Based on the user behaviour we can define the norm for the user interface, which can be used for editing the user manual. The requirement norm for each subsystem can be defined based on their behaviour description. What's more, through analysing the template, the test norm and interface requirement norm can also be defined.</br>
 
-![](../Image/Centrality of the operational description template.jpg)
+![](/Image/Centrality%20of%20the%20operational%20description%20template.jpg)
 
 ## b) Design the flow and control	
 
@@ -1575,7 +1575,7 @@ As mentioned above, another way to describe the system behaviours is to implemen
 
 In the table above a deadlock state is marked with bold borders. Below is the state change graph. Within the square is the system status. Lines represent paths, with events indicated above them. Each route is a single loop. 
 
-![](../Image/state_change.jpg)
+![](/Image/state_change.jpg)
 
 ## c) Design the structure	
 
@@ -1821,9 +1821,9 @@ For our project, the test procedure is as follows,
 | | | | | `Call (display)` | | | | |
 | | | | | | | The system displays messages indicating the adult male to leave | Displaying ending message | |
 | | | | | | | `Call (back)` | | |
-
-![](../Image/Identify behavioural test sequence.jpg)
-![](../Image/Identify behavioural test sequence 2.jpg)
+</br>
+![](../Image/Identify%20behavioural%20test%20sequence.jpg)
+![](../Image/Identify%20behavioural%20test%20sequence%202.jpg)
 
 #### 2. Develop behavioural test methodology	
 
@@ -2132,61 +2132,61 @@ Here the first step is to develop a task list for all tasks within the category.
 | | **Develop fluid detection system** | |
 | | | Purchase fluid detection system |
 | | | Design fluid direction detection system |
-
-![](../Image/Develop the task list (work breakdown structure).jpg)
-
+</br>
+![](/Image/Develop%20the%20task%20list%20(work%20breakdown%20structure).jpg)
+</br>
 We list all the low rank activities in a new table and give each of them a number.
-
-![](../Image/Develop the task list (work breakdown structure) 2.jpg)
+</br>
+![](/Image/Develop%20the%20task%20list%20(work%20breakdown%20structure)%202.jpg)
 
 ### ii. Estimate durations	
 
 To work out the schedule, it's necessary to estimate the time for each task. This estimation is based on experience, which can be modified during the action. For our project the estimation is listed in the table below.
-
-![](../Image/Estimate durations.jpg)
-
+</br>
+![](/Image/Estimate%20durations.jpg)
+</br>
 ### iii. Task percent complete	
 
 The project manager should follow each task and make sure none of them is overdue. If the project requires collaboration of different teams, leaders of the teams should report to the project manager about their progress. These informations are added in the same table.
-
-![](../Image/Task percent complete.jpg)
-
+</br>
+![](/Image/Task%20percent%20complete.jpg)
+</br>
 ### iv. Identify task inputs, outputs, and deliverables	
 
 It's important to be aware of the relation between different tasks. This relation can be presented in a task input-output matrix, which describe the order of design, manufacture and test of all tasks. 
 
 For our project, the matrix is composed of 26 design and manufacture activities, and 14 test activities. For simplicity here we show part of the matrix as an example. The complete matrix can be found in the excel file "task input-output matrix". For example, the A.01 subsystem requirement will define the interfaces, norms and requirements of the body and sound detection subsystems, which should be worked out before purchase. 
-
-![](../Image/Identify task inputs, outputs, and deliverables.jpg)
-
+</br>
+![](/Image/Identify%20task%20inputs,%20outputs,%20and%20deliverables.jpg)
+</br>
 The summary of the task input-output matrix
-
-![](../Image/Identify task inputs, outputs, and deliverables 2.jpg)
-
+</br>
+![](/Image/Identify%20task%20inputs,%20outputs,%20and%20deliverables%202.jpg)
+</br>
 ### v. Establish task precedence relationships	
 
 After working out the task input-output matrix, it's easy to generate the establish the task precedence matrix. Each cell marked as "1" in the matrix indicates that the task labelled in the row should be finished prior to that labelled in the column. For our project, only part of the matrix is presented here. The complete matrix can be found in the excel file -- "task precedence matrix".
-
-![](../Image/Establish task precedence relationships.jpg)
-
+</br>
+![](/Image/Establish%20task%20precedence%20relationships.jpg)
+</br>
 In the above matrix, some of the cells under the diagonal are labelled as "1", indicating that the order of the tasks should be adjusted. This work can be done by using computer programs. The adjusted tasks are listed in the table below based on their priorities. 
-
-![](../Image/Establish task precedence relationships 2.jpg)
-
+</br>
+![](/Image/Establish%20task%20precedence%20relationships%202.jpg)
+</br>
 ### vi. Schedule the project	
 
 The next step is to work out the schedule, which presents the start and end time of each task. 
-
-![](../Image/Schedule the project.jpg)
-
+</br>
+![](/Image/Schedule%20the%20project.jpg)
+</br>
 Note that the start time is assigned as the earliest time the task may be started. For example, the activity A.21 "integrate the body detection system and the data processing system" can be started after the accomplishment of A.04 "test body detection system" and A.14 "test data processing system". Therefore, the start time of A.21 should be the later time between the end times of A.04 and A.14.   
 
 ### vii. Display a Gantt chart	
 
 The schedule can be visualized using Gantt chart. Here we use MS Project to produce the Gantt chart. 
-
-![](../Image/Gantt chart schedule V1.gif)
-
+</br>
+![](/Image/Gantt%20chart%20schedule%20V1.gif)
+</br>
 Note that many tasks are parallel. Here we do not consider the competition of resources. For example, we only have one data process system. The integration of the data process system with other systems, such as body detection system, sound detection system, liquid detection system, etc, has to be done one by one. Therefore, the schedule should be adjusted according to the availability of resources.
 
 ### viii. Adjust the schedule for team availability	
@@ -2194,18 +2194,18 @@ Note that many tasks are parallel. Here we do not consider the competition of re
 For a small project, adjustment of the schedule can be done by using the test for error method and add delay in the schedule. For big projects, this step can be done by using computer programs. For our project, the result of the adjustment is displayed in the table below.
 
 In the previous MS project table, a column of "Levelling Delay" is added. Next, we need to assign tasks to each team member, based on his/her availability. 
-
-![](../Image/Gantt chart schedule _ delay V1.gif)
-
+</br>
+![](/Image/Gantt%20chart%20schedule%20_%20delay%20V1.gif)
+</br>
 Team members are added in the Gantt chart. We should go through each member and check if there is any time conflict between different tasks. If yes, a delay should be added in schedule. 
-
-![](../Image/Adjust the schedule for team availability.jpg)
-![](../Image/Adjust the schedule for team availability 2.jpg)
-
+</br>
+![](/Image/Adjust%20the%20schedule%20for%20team%20availability.jpg)
+![](/Image/Adjust%20the%20schedule%20for%20team%20availability%202.jpg)
+</br>
 Fill each team member into the Gantt chart, and adjust the order, focusing on tasks assigned to the same employee. At the same time, check whether there are two or more tasks requiring to start at same time, then introduce delay time.
-
-![](../Image/GGantt chart schedule _ delay_team member V1.gif)
-
+</br>
+![](/Image/Gantt%20chart%20schedule%20_%20delay_team%20member%20V1.gif)
+</br>
 ## b) Conduct management reviews	
 
 By conducting management reviews, we can check if the project progresses according to the schedule. In this step, all the team leaders should report to the project manager. For efficiency, normally the report is presented in one A4 paper, which contains the following contents:
@@ -2216,9 +2216,9 @@ By conducting management reviews, we can check if the project progresses accordi
 - obstacles; problems the teams encountered, which may cause delay or cost exceeds budget
 
 For our project, the result is presented in the table below
-
-![](../Image/Conduct management reviews.jpg)
-
+</br>
+![](/Image/Conduct%20management%20reviews.jpg)
+</br>
 During the review, based on the information from all the team leaders, the project manager should judge the situation and draw following conclusions if necessary,
 
 - stop the project. If the target is not reachable, stop the project may save cost
@@ -2245,9 +2245,9 @@ All the above mentioned steps are in the same mode, from one start point, going 
 - add new functions, tasks or parameters. Maybe the current design does not have enough freedom to satisfy all the requirements. Adding new sub-functions may provide more design freedom.
  
 For our project, the backtracking strategy is shown in the table below
-
-![](../Image/Backtracking strategies.jpg)
-
+</br>
+![](/Image/Backtracking%20strategies.jpg)
+</br>
 ## b) Iterate with improvement	
 
 This document follows the procedure described in the book -- Getting Design Right, which combines the constantly improving concept in quality management with system engineering. Among the eight steps we mentioned above, the first six steps (define, measure, explore, optimize, develop, validate) are corresponding to three steps (plan, perform and check) in quality management. Data collected during validation in one iteration can be used during measurement in the next iteration. In this case, the last two steps (execute and iterate) are corresponding to the action step in quality management. 
@@ -2266,9 +2266,9 @@ Iteration by level is in the nested form, which is different from the previous a
 ### i. Level-by-level decomposition: the Vee diagram	
 
 According to system engineering, we describe a system through its context, behaviour and subsystems. The whole system is decomposed into many subsystems, which can be divided again and again, forms V shape design procedure -- the system engineering procedure. The above mentioned eight steps are applied to different levels. 
-
-![](../Image/Level by level decomposition the Vee diagram.jpg)
-
+</br>
+![](/Image/Level%20by%20level%20decomposition%20the%20Vee%20diagram.jpg)
+</br>
 The left side of the V-model focus on the sort out all the requirements, identify subsystems, specify their functions, work out performance requirements, setup standards for interfaces. The design-manufacture at the bottom of the V-model relates to many different subjects. The final solution should be worked out by experts in the field. It should satisfy all the requirements. The right side of the V-model is focus on the design, which starts from the verification of whether all the components satisfy their requirements. After testing all the components, the next step will be the integration and verification of all subsystems. The last step is the integration and verification of the whole system, which eventually will be tested by the market and costumers. 
 
 During the process, we should pay attention to the following three aspects, detail functions into behaviours; allocate non-behavioural requirements; maintain hierarchies and traceabilities. 
@@ -2282,9 +2282,9 @@ According to the system engineering procedure, functions should be assigned to l
 #### 2. Allocate non-behavioural requirements: linked houses of quality	
 
 Just like the behavioural requirements, non-behavioural requirements should be allocated on subsystems as well. Some engineering characteristics, such as weight, should be allocated on every subsystem levels; other engineering characteristics, such as velocity, should be presented on the interactions between different subsystems. The process of allocation is preformed by connecting related quality houses. 
-
-![](../Image/Level by level decomposition the Vee diagram 2.jpg)
-
+</br>
+![](/Image/Level%20by%20level%20decomposition%20the%20Vee%20diagram%202.jpg)
+</br>
 Here we only show three levels of quality house. Ideally it should be applied on every subsystem level, and every procedure, such as manufacture, installation, running, uninstallation etc.
 
 #### 3. Maintain hierarchies and traceabilities	
@@ -2305,25 +2305,25 @@ Listed above are mostly datum with level structures. For example, through the ma
 ## d) Dive and surface: a system view	
 
 Dive is to analyse the questions in details, while surface is to summarize those details. During surface, we should focus on analysing the questions and environments in the system level. To determine the viability of the analysis, we should switch to dive and be more specific. The following table is used for the analysis.
-
-![](../Image/Dive and surface a system view.jpg)
-
+</br>
+![](/Image/Dive%20and%20surface%20a%20system%20view.jpg)
+</br>
 ### Appendix 1 IBM Rational Rhapsody - Design black box system model
-The system sequence diagram drawn by IBM Rational Rhapsody.
-![](../Image/10 SequenceDiagram_Blackbox.jpg)
-
-The system state diagram drawn by IBM Rational Rhapsody.
-![](../Image/11 StateDiagram_Blackbox.jpg)
-
+The system sequence diagram drawn by IBM Rational Rhapsody.</br>
+![](/Image/10%20SequenceDiagram_Blackbox.jpg)
+</br>
+The system state diagram drawn by IBM Rational Rhapsody.</br>
+![](/Image/11%20StateDiagram_Blackbox.jpg)
+</br>
 ### Appendix 2 IBM Rational Rhapsody - Design white box system model
-The white-box sequence diagram drawn by IBM Rational Rhapsody, based on the previously drawn black-box system model.
-![](../Image/12 SequenceDiagram_Whitebox.jpg)
-
-White-box BDD (Block Definition Diagram).
-![](../Image/13 BDD_Whitebox.jpg)
-
-White-box IBD (Internal Block Diagram).
-![](../Image/14 IBD.jpg)
-
-The code framework generated after the model execution is completed.
-![](../Image/15 Code.jpg)
+The white-box sequence diagram drawn by IBM Rational Rhapsody, based on the previously drawn black-box system model.</br>
+![](/Image/12%20SequenceDiagram_Whitebox.jpg)
+</br>
+White-box BDD (Block Definition Diagram).</br>
+![](/Image/13%20BDD_Whitebox.jpg)
+</br>
+White-box IBD (Internal Block Diagram).</br>
+![](/Image/14%20IBD.jpg)
+</br>
+The code framework generated after the model execution is completed.</br>
+![](/Image/15%20Code.jpg)</br>
