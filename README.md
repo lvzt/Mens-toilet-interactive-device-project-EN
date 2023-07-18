@@ -2072,7 +2072,7 @@ Here the first step is to develop a task list for all tasks within the category.
 | | | Test sound detection system |
 | | **Develop fluid detection system** | |
 | | | Purchase fluid detection system |
-| | | Design fluid direction detection system |
+| | | Design fluid direction detection system |||
 </br>
 ![](../Image/Develop%20the%20task%20list.jpg)
 </br>
