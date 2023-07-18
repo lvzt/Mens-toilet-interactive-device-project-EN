@@ -1758,73 +1758,14 @@ For our project, the test procedure is as follows,
 | Test setup: |
 | Use a plastic bottle of warm water to simulate the urine, which will be squeezed into the urinal |
 
-
-| An adult male will use the toilet (operator) | Body detection subsystem | Sound detection subsystem | Liquid detection subsystem | Data processing subsystem | Game subsystem | Display subsystem | System status | Time | Expected result | Actual result |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| The adult male approaches the toilet | | | | | | | Displaying ad while waiting for people coming close | | Ad displayed repeatedly | |
-| `Event signal (Signal of human body)` | | | | | | | | | | |
-| | The system detects human being nearby | | | | | | Detecting human being nearby| 1-3 seconds | Signal sent out by the body detection unit | |
-| | `Event signal (Human body detection signal)` | | | | | | | | | |
-| | | | | The system processes the signal | | | Signal processing | | Signal received and processed | |
-| | | | | `Call (play)` | | | | | | |
-| | | | | | | The system displays instructions | Displaying instruction | | Instruction displayed | |
-| | | | | | | _**The system can display advertisement after idling for a while**_ | | 5 seconds | Ad displayed repeatedly | |
-| | | | | | | `Call (return)` | | | | |
-| The adult male confirms readiness by sound | | | | | | | | | | |
-| `Event signal (Sound)` | | | | | | | | | | |
-| | | The system detects the sound | | | | | Detecting human voice | 1-3 seconds | Signal sent out by the sound detection unit | |
-| | | `Event signal (Sound detection signal)` | | | | | | | | |
-| | | | | The system processes the sound signal | | | Signal processing | | Signal received and processed | |
-| | | | | `Call (display)` | | | | | | |
-| | | | | | | The system counts down to start the game | Countdown | | Countdown displayed | |
-| | | | | | | _**The system can display advertisement again if no fluid detected in the end of countdown**_ | | 5 seconds | Ad displayed | |
-| | | | | | | `Call (back)` | | | | |
-| The adult male starts to use the toilet | | | | | | | | | | |
+</br>
+![](/Image/Identify%20behavioural%20test%20sequence.jpg)
+</br>
 
 | End state: adult male quit using the urinal | 
 | --- |
 | 1. Display ad|
 
-
-** the form is not complete **
-
-| `Event signal (Fluid)` | | | | | | | | |
-| | | | The system detects fluid | | | | Detecting fluid | 0.5 second |
-| | | | `Event signal (Fluid detection signal)` | | | | | |
-| | | | | The system processes the fluid pressure signal | | | Signal processing | |
-| | | | | `Call (game)` | | | | |
-| | | | | | The system performs the calculation based on the signal  | | Performing calculation | |
-| | | | | | `Call (calculation, display)`  | | | |
-| | | | | | | The system reacts to the adult male through the game based on the calculation | Displaying the reaction on the screen | |
-| | | | The system detects the direction of the fluid | | | | Detecting fluid | 0.5 second |
-| | | | `Event signal (Fluid direction signal)` | | | | | |
-| | | | | The system processes the fluid direction signal | | | Signal processing | |
-| | | | | `Call (game)` | | | | |
-| | | | | | The system performs the calculation based on the signal  | | Performing calculation | |
-| | | | | | `Call (calculation, display)`  | | | |
-| | | | | | | The system reacts to the adult male through the game based on the calculation | Displaying reaction | |
-| The adult male finishes using the toilet | | | | | | | | |
-| `Event signal (Fluid)` | | | | | | | | |
-| | | | The system detects fluid | | | | Detecting fluid | 0.5 second |
-| | | | `Event signal (Fluid detection signal)` | | | | | |
-| | | | | The system processes the fluid pressure signal | | | Signal processing | |
-| | | | | `Call (game)` | | | | |
-| | | | | | The system performs the calculation based on the signal  | | Performing calculation | |
-| | | | | | `Call (calculation, display)`  | | | |
-| | | | | | | The system reacts to the adult male through the game based on the calculation | Displaying reaction | 5 seconds |
-| | | | | | | Call (back) | | |
-| The adult male keeps occupying the toilet | | | | | | | Detecting user not leaving |
-| `Event signal (not leaving)` | | | | | | | |
-| | The system detects the same person occupying the toilet | | | | | | Identifying the same user | 0.5 second |
-| | `Event signal (same person)` | | | | | | | |
-| | | | | The system processes the signal | | | Processing signal | |
-| | | | | `Call (display)` | | | | |
-| | | | | | | The system displays messages indicating the adult male to leave | Displaying ending message | |
-| | | | | | | `Call (back)` | | |
-</br>
-![](/Image/Identify%20behavioural%20test%20sequence.jpg)
-![](/Image/Identify%20behavioural%20test%20sequence%202.jpg)
-</br>
 #### 2. Develop behavioural test methodology	
 
 Through behaviour analysis we have gotten the original requirements. There should be a test plan for every system behaviour. Usually test plans are presented in tables, listed with test schedules, test equipments, entrance and exit conditions. Entrance condition is the requirements to be satisfied before the test; exit condition is the minimum requirements for passing the test. 
@@ -2133,11 +2074,11 @@ Here the first step is to develop a task list for all tasks within the category.
 | | | Purchase fluid detection system |
 | | | Design fluid direction detection system |
 </br>
-![](/Image/Develop%20the%20task%20list%20(work%20breakdown%20structure).jpg)
+![](/Image/Develop%20the%20task%20list.jpg)
 </br>
 We list all the low rank activities in a new table and give each of them a number.
 </br>
-![](/Image/Develop%20the%20task%20list%20(work%20breakdown%20structure)%202.jpg)
+![](/Image/Develop%20the%20task%20list%202.jpg)
 </br>
 ### ii. Estimate durations	
 
