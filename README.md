@@ -2076,6 +2076,9 @@ Here the first step is to develop a task list for all tasks within the category.
 </br>
 ![](/Image/Develop%20the%20task%20list.jpg)
 </br>
+We list all the low rank activities in a new table and give each of them a number.</br>
+![](/Image/Develop%20the%20task%20list%202.jpg)
+</br>
 
 ### ii. Estimate durations	
 
