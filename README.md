@@ -1822,9 +1822,9 @@ For our project, the test procedure is as follows,
 | | | | | | | The system displays messages indicating the adult male to leave | Displaying ending message | |
 | | | | | | | `Call (back)` | | |
 </br>
-![](../Image/Identify%20behavioural%20test%20sequence.jpg)
-![](../Image/Identify%20behavioural%20test%20sequence%202.jpg)
-
+![](/Image/Identify%20behavioural%20test%20sequence.jpg)
+![](/Image/Identify%20behavioural%20test%20sequence%202.jpg)
+</br>
 #### 2. Develop behavioural test methodology	
 
 Through behaviour analysis we have gotten the original requirements. There should be a test plan for every system behaviour. Usually test plans are presented in tables, listed with test schedules, test equipments, entrance and exit conditions. Entrance condition is the requirements to be satisfied before the test; exit condition is the minimum requirements for passing the test. 
@@ -2138,7 +2138,7 @@ Here the first step is to develop a task list for all tasks within the category.
 We list all the low rank activities in a new table and give each of them a number.
 </br>
 ![](/Image/Develop%20the%20task%20list%20(work%20breakdown%20structure)%202.jpg)
-
+</br>
 ### ii. Estimate durations	
 
 To work out the schedule, it's necessary to estimate the time for each task. This estimation is based on experience, which can be modified during the action. For our project the estimation is listed in the table below.
