@@ -2057,22 +2057,6 @@ From now on, we will shift the focus towards project managements. In reality, no
 The main task of the project manager is to define the project category, and then identify all the tasks to be done within the category. If the estimated cost exceeds the budget, it's necessary to find a way to reduce the cost, or negotiate with the investor to increase the budget. 
 
 Here the first step is to develop a task list for all tasks within the category. Tasks can be decomposed and sorted base on their ranks. 
-
-| **System design** | | |
-| --- | --- | --- |
-| | **Develop subsystem requirements** | |
-| **Design, manufacture, test subsystems** | | |
-| | **Develop body detection system** | |
-| | | Purchase body detection system |
-| | | Install body detection system |
-| | | Test body detection system |
-| | **Develop sound detection system** | |
-| | | Purchase sound detection system |
-| | | Install sound detection system |
-| | | Test sound detection system |
-| | **Develop fluid detection system** | |
-| | | Purchase fluid detection system |
-| | | Design fluid direction detection system |||
 </br>
 ![](../Image/Develop%20the%20task%20list.jpg)
 </br>
