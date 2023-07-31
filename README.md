@@ -521,22 +521,7 @@ For our project, there is no similarity between different product objectives, th
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | The degree of modification to the existing structure | The device is sensitive and may respond to instructions promptly | The game is fun to play | The device is waterproof | The device is easy to clean | The device may display message to suggest that the user shall finish using the toilet as soon as possible | The device can switch to power-saving mode and wake up automatically | The device is easy to maintain |
 
-
-| 1 | Modification to the existing structure | Sensitivity | Fun | Waterproof | Easy to clean | Alert message | Power saving | Easy to maintain |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| | 0.15 | 0.25 | 0.1 | 0.2 | 0.1 | 0.1 | 0.05 | 0.05 |
-
-| 2 | The area of modification to the existing structure | The effort required to modify the structure | Pregame sensitivity | During the game sensitivity | Postgame sensitivity | Game is fun to play | Waterproof | The time it takes to clean the device | The robustness of the device against cleaning agents | Display alert message when the game is over | Switch to power saving mode during the night automatically | Wake up during the day automatically | Easy to maintain |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| | 0.333 | 0.667 | | | | | | | | | | | |
-| | | | 0.3 | 0.4 | 0.3 | | | | | | | | |
-| | | | | | | 1 | | | | | | | |
-| | | | | | | | 1 | | | | | | |
-| | | | | | | | | 0.6 | 0.4 | | | | |
-| | | | | | | | | | | 1 | | | |
-| | | | | | | | | | | | 0.5 | 0.5 | |
-| | | | | | | | | | | | | | 1 |
-| 3 | 0.15*0.333=0.05 | 0.15*0.667=0.1 | 0.25*0.3=0.075 | 0.25*0.4=0.1 | 0.25*0.3=0.075 | 0.1*1=0.1 | 0.2*1=0.2 | 0.1*0.6=0.06 | 0.1*0.4=0.04 | 0.1*1=0.1 | 0.05*0.5=0.025 | 0.05*0.5=0.025 | 0.05*1=0.05 |
+![](/Image/Weigh%20the%20product%20objectives.jpg)
 
 The sorted product targets are
 
