@@ -623,22 +623,7 @@ For our project, the identified characteristics are,
 
 Below is the house of quality. The columns are the identified engineering characteristics, the rows are the customer attributes. Here we can clearly see how the engineering characteristics influence the customer attributes. If a engineering characteristic has no influence on customer attributes, it should not be listed in the table.
 
-| | | | Waterproof materials and the related processing techniques | The effective area of the detectors | The maximum amount of detectors required | The maximum sound volume required for activating the device | The maximum time it takes for starting the game | The time it takes to display the result of the game | The times a player willing to play the same game | The choices of materials around the region of detectors | The time between displaying the result of the game and displaying the alarm message to indicate the user should leave | The integration of all the components of the device | The time for automatically switching off and turning on the device |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| | | | &#x2191; | &#x2191; | &#x2191; | &#x2193; | &#x2193; | &#x2193; | &#x2191; | &#x2191; | &#x2193; | &#x2191; | &#x2191; |
-| Modification to the existing structure | Modification to the existing structure | 0.05 | XX | XX | XX | | | | | | | &#x2713;&#x2713; | |
-| | The effort required to modify the structure | 0.1 | XX | XX | XX | | | | | | | &#x2713; | |
-| Sensitivity | Pregame | 0.075 | | | | &#x2713;&#x2713; | &#x2713;&#x2713; |  | | | | | |
-| | During the game | 0.1 | | &#x2713;&#x2713; |&#x2713;&#x2713; | | | | | | | | |
-| | Post game | 0.075 | | | | | | &#x2713;&#x2713; | | | | | |
-| Fun to play | Fun to play | 0.1 | | | &#x2713;&#x2713;| | | | &#x2713;&#x2713; | | | | |
-| Waterproof | Waterproof | 0.2 | &#x2713;&#x2713; | XX | | | | | | &#x2713;&#x2713; | | | |
-| Easy to clean | Time required for cleaning | 0.06 | | X | XX | | | | | &#x2713; | | | |
-| | Robustness -- The resistance to cleaning agents | 0.04 | | | | | | | | &#x2713;&#x2713; | | | |
-| Display message to indicate the user should leave | 0.1 | | | | | | | | | &#x2713;&#x2713; | | |
-| Easy to maintain | Easy to maintain | 0.05 | | | | | | | | | | &#x2713;&#x2713; | |
-| Power saving | Switch off during the night | 0.025 | | | | | | | | | | | &#x2713;&#x2713; |
-| | Turn on during the day | 0.025 | | | | | | | | | | | &#x2713;&#x2713; |
+![](/Image//Map%20engineering%20characteristics%20to%20customer%20attributes.jpg)
 
 &#x2713;&#x2713; stands for strong relevance; &#x2713; stands for relevance; X stands for weak relevance; XX stands for no relevance; &#x2191; stands for ascend; &#x2193; stands for descend. 
 
