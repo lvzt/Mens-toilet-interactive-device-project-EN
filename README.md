@@ -633,20 +633,7 @@ For example, the more detectors are implemented, the larger the effective area, 
 
 As the engineering characteristics may influence each other as well, we present their relationships in the table below,
 
-| | | | | | | | | | | | Waterproof material and related processing techniques |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| &#x2713;&#x2713; | | | | | | | | | | | The effective area of the detectors |
-| &#x2713;&#x2713; | &#x2713;&#x2713; | | | | | | | | | | The maximum amount of detectors required |
-| | | | | | | | | | | | The maximum sound volume required for activating the device |
-| | | | XX | | | | | | | | The maximum time it takes for starting the game |
-| | XX | &#x2713;&#x2713; | | | | | | | | | The time it takes to display the result of the game |
-| | | &#x2713; | X | X | X | | | | | | The times a player willing to play the same game |
-| &#x2713;&#x2713; | | | | | | | | | | | The choices of materials around the region of detectors |
-| | | | | | | | | | | | The time between displaying the result of the game and displaying the alarm message to indicate the user should leave |
-| &#x2713;&#x2713; | | | | | | | | | | | The integration of all the components of the device |
-| | | | | | | | | | | | The time for automatically switching off and turning on the device |
-| Waterproof material and related processing techniques | The effective area of the detectors | The maximum amount of detectors required | The maximum sound volume required for activating the device | The maximum time it takes for starting the game | The time it takes to display the result of the game | The times a player willing to play the same game | The choices of materials around the region of detectors | The time between displaying the result of the game and displaying the alarm message to indicate the user should leave | The integration of all the components of the device | The time for automatically switching off and turning on the device | |
-| &#x2191; | &#x2191; | &#x2191; | &#x2193; | &#x2193; | &#x2193; | &#x2191; | &#x2191; | &#x2193; | &#x2191; | &#x2191; | |
+![](/Image/Document%20engineering%20interrelationships.jpg)
 
 &#x2713;&#x2713; stands for strong relevance; &#x2713; stands for relevance; X stands for weak relevance; XX stands for no relevance; &#x2191; stands for ascend; &#x2193; stands for descend. 
 
