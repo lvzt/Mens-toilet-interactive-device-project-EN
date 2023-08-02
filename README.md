@@ -663,28 +663,7 @@ After the analysis, target technical performance measure can be determined. Note
 
 The complete house of quality for our project is shown below
 
-| | | | | | | | | | | | | | | Waterproof material and related processing techniques |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| | | | &#x2713;&#x2713; | | | | | | | | | | | The effective area of the detectors |
-| | | | &#x2713;&#x2713; | &#x2713;&#x2713; | | | | | | | | | | The maximum amount of detectors required |
-| | | | | | | | | | | | | | | The maximum sound volume required for activating the device |
-| | | | | | | XX | | | | | | | | The maximum time it takes for starting the game |
-| | | | | XX | &#x2713;&#x2713; | | | | | | | | | The time it takes to display the result of the game |
-| | | | | | &#x2713; | X | X | X | | | | | | The times a player willing to play the same game |
-| | | | &#x2713;&#x2713; | | | | | | | | | | | The choices of materials around the region of detectors |
-| | | | | | | | | | | | | | | The time between displaying the result of the game and displaying the alarm message to indicate the user should leave |
-| | | | &#x2713;&#x2713; | | | | | | | | | | | The integration of all the components of the device |
-| | | | | | | | | | | | | | | The time for automatically switching off and turning on the device |
-| | | | Waterproof material and related processing techniques | The effective area of the detectors | The maximum amount of detectors required | The maximum sound volume required for activating the device | The maximum time it takes for starting the game | The time it takes to display the result of the game | The times a player willing to play the same game | The choices of materials around the region of detectors | The time between displaying the result of the game and displaying the alarm message to indicate the user should leave | The integration of all the components of the device | The time for automatically switching off and turning on the device | |
-| | | | &#x2191; | &#x2191; | &#x2191; | &#x2193; | &#x2193; | &#x2193; | &#x2191; | &#x2191; | &#x2193; | &#x2191; | &#x2191; | |
-| target measurement | Units of measure | mm<sup>2</sup> | mm<sup>2</sup> | Piece | dB | second | second | times | material | second | box | time |
-| | Sega | Unknown | 28.27 | 1 | None | Unknown | 0.1 | Unknown | Plastic | Unknown | Unknown | Unknown | | |
-| | Indian | Unknown | 603.19 | 192 | None | Unknown | Unknown | Unknown | Plastic | Unknown | Unknown | Unknown | | |
-| | London | Unknown | 51.41 | 3 | None | Unknown | 0.1 | Unknown | Metal | Unknown | Unknown | Unknown | | |
-| Technical difficulties (1-lowest, 5-highest) | | 4 | 3 | 3 | 2 | 4 | 5 | 3 | 2 | 2 | 2 | 1 | | |
-| Estimated values (%) | | 70% | 96% | 56% | 15% | 15% | 35% | 20% | 54% | 20% | 30% | 10% | | |
-| Estimated cost (1-lowest, 5-highest) | | 5 | 3 | 3 | 2 | 4 | 4 | 3 | 4 | 2 | 2 | 1 | | |
-| Target | | 50 | 120 | 5 | 40 | 3 | 0.1 | 3 | Plastic | 8 | 3 | 7:00 AM <br /> 1:00 AM | | |
+![](/Image/Determine%20target%20technical%20performance%20measure%202.jpg)
 
 After analyzing the house of quality, the resulting primary requirements are listed in the table below
 
