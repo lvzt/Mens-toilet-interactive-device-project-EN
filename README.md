@@ -794,14 +794,7 @@ Now the team should look for backup plans. As far as a problem can be solved by 
 
 The next step is to sort out the solutions, prepare them in order and form a concept category tree. Here we present the tree using the table below
 
-| Detect human approaching | | Detect sound | Detect fluid direction | | Detect fluid(urine) | | Display | Processor | Game |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Active detecting | Passive detecting | Microphone | 2D | 3D | Fluid feature | Normal feature | | | |
-| Ultrasonic detector | Infrared detector | Sound detector | All shapes of 2D multi-points detectors | Cubic shape multi-points detector | Liquid pressure detector | Accelerometer | CRT | PC | QA |
-|  | Human body motion detector | | | Irregular shape multi-points detector | Liquid volume detector | Temperature sensor | LCD | Embedded system | C# |
-| | Gravity sensor | | | | Transmission speed sensor | | | Mini PC | Java |
-| | Electro-optical sensor | | | | | | | Embedded system + PC | Unity3D |
-| | | | | | | | | | Python |
+![](/Image/Organize%20concept%20fragments.jpg)
 
 ### iv. Prune and expand	
 
