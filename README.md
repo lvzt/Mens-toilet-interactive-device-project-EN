@@ -800,14 +800,7 @@ The next step is to sort out the solutions, prepare them in order and form a con
 
 The advantage of using the tree structure is its ease for pruning and expanding. For example, categories that are not environmentally friendly can be removed from the tree. The resulting table is listed below
 
-| Detect human approaching | | Detect sound | Detect fluid direction | | Detect fluid(urine) | | Display | Processor | Game |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Active detecting | Passive detecting | Microphone | 2D | 3D | Fluid feature | Normal feature | | | |
-| Ultrasonic detector | Infrared detector | Sound detector | All shapes of 2D multi-points detectors | Cubic shape multi-points detector | Liquid pressure detector | <s> Accelerometer </s> | <s> CRT </s> | <s> PC </s> | <s> QA </s> |
-|  | <s> Human body motion detector </s> | | | <s> Irregular shape multi-points detector </s> | Liquid volume detector | <s> Temperature sensor </s> | LCD | <s> Embedded system </s> | C# |
-| | <s> Gravity sensor </s> | | | | Transmission speed sensor | | | Mini PC | <s> Java </s> |
-| | <s> Electro-optical sensor </s> | | | | | | | Embedded system + PC | Unity3D |
-| | | | | | | | | | Python |
+![](/Image/Prune%20and%20expand.jpg)
 
 We cut off the following elements in the table:
 - the motion detection device, because it is too expensive. 
