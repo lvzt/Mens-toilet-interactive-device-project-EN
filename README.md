@@ -927,16 +927,7 @@ First we remove the product objectives that are not related to the design, such 
 
 As we have many different solutions for the final design, we are in the selection phase. The selection is based on the value assignment and comparing method. First an arbitrary solution is chosen as reference, with its value set to 0. Solutions that are better than reference marked with +; worse solutions marked with -; solutions marked with 0 if it is comparable with the reference. The result for our project is presented in the table below. Here we cut off two elements: sound detector and LCD, because they are the only candidates. 
 
-| Attribute name | Ultrasonic detector (reference) | Infrared detector | All shapes of 2D multi-points detectors (reference) | Cubic shape multi-points detector | Liquid pressure detector (reference)| Liquid volume detector  | Transmission speed sensor | Mini PC (reference) | PC + embedded system | C# | Unity3D | Python |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Waterproof | | | 0 | - | | | | | | | | |
-| Easiness to manufacture | | | 0 | - | | | | | | | | |
-| During game sensitivity | | | 0 | + | 0 | - | - | 0 | 0 | 0 | - | + |
-| Pregame sensitivity | 0 | 0 | | | | | | | | | | |
-| Modification to the existing structure | | | 0 | + | | | | | | | | |
-| Easiness to clean | | | 0 | - | | | | | | | | |
-| Robustness against cleaning agents | | | 0 | - | | | | | | | | |
-| Easiness to maintain | | | 0 | - | | | | 0 | - | | | |
+![](/Image/Screen%20the%20alternatives.jpg)
 
 From the above analysis we conclude that, the performance of ultrasonic and infrared detectors are comparable; flat multiple-points detector is better in the following aspects: waterproof, ease of manufacture, ease of cleaning, robustness, but it is less sensitive and less easy to maintain comparing to the ball shape detector; liquid pressure sensor are better than liquid speed detector and liquid volume detector; mini PC is better to maintain comparing to Arduino + PC; games designed by using Unity3D has a better quality, but usually they require more resource and hence less sensitive, therefore C# or Python will be selected in this stage. 
 
