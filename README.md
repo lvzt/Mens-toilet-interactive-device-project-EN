@@ -935,16 +935,7 @@ From the above analysis we conclude that, the performance of ultrasonic and infr
 
 After the rough selection in the previous step, now we will perform more elaborated analysis. We evaluate the candidates with a score system: score 5 indicates that the alternative candidate is much better than the reference, score 3 represents the same, score 1 indicates that the alternative candidate is much worse than the reference. The results are presented in the table below, 
 
-| Attribute name | Ultrasonic detector (reference) | Infrared detector | All shapes of 2D multi-points detectors (reference) | Cubic shape multi-points detector | Mini PC (reference) | PC + embedded system | C# | Python |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Waterproof | | | 3 | 2 | | | | |
-| Easiness to manufacture | | | 3 | 2 | | | | |
-| During game sensitivity | | | 3 | 4 | 3 | 3 | 3 | 3 | 4 |
-| Pregame sensitivity | 3 | 3 | | | | | | |
-| Modification to the existing structure | | | 3 | 4 | | | | |
-| Easiness to clean | | | 3 | 2 | | | | |
-| Robustness against cleaning agents | | | 3 | 2 | | | | |
-| Easiness to maintain | | | 3 | 2 | | | | |
+![](/Image/Rate%20alternatives.jpg)
 
 ### v. Weigh the attributes	
 
