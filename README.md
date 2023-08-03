@@ -951,20 +951,7 @@ Here we adjust the results a bit by combining the during game sensitivity and af
 
 Finally, we place the weighed attributes and candidates in one table and evaluate every candidates according to each attributes. The advantage of using this matrix is that it facilitates the discussion among team members. What's more, the document records the process of decision making, which can be displayed to the outsiders. The matrix after evaluation is shown below
 
-| Attribute name | Weight | Ultrasonic detector (reference) | | Infrared detector | | All shapes of 2D multi-points detectors (reference) | | Cubic shape multi-points detector | | Mini PC (reference) | | PC + embedded system | | C# (reference) | | Python | |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| | | Score | Weighed score | Score | Weighed score | Score | Weighed score | Score | Weighed score | Score | Weighed score | Score | Weighed score | Score | Weighed score | Score | Weighed score |
-| Waterproof | 0.2 | | | | | 3 | 0.6 | 2 | 0.4 | | | | | | | | |
-| Easiness to manufacture | 0.1 | | | | | 3 | 0.3 | 2 | 0.2 | | | | | | | | |
-| Game sensitivity | 0.175 | | | | | 3 | 0.525 | 4 | 0.7 | 3 | 0.525 | 3 | 0.525 | 3 | 0.525 | 4 | 0.7 | 
-| Pregame sensitivity | 0.075 | 3 | 0.225 | 3 | 0.225 | | | | | | | | | | | | |
-| Easiness to clean | 0.06 | | | | | 3 | 0.18 | 2 | 0.12 | | | | | | | | |
-| Modification to the existing structure | 0.05 | | | | | 3 | 0.15 | 4 | 0.2 | | | | | | | | |
-| Easiness to maintain | 0.05 | | | | | 3 | 0.15 | 2 | 0.1 | | | | | | | | |
-| Robustness against cleaning agents | 0.04 | | | | | 3 | 0.12 | 2 | 0.08 | | | | | | | | |
-| Sum | | | 0.225 | | 0.225 | | 2.025 | | 1.8 | | 0.525 | | 0.525 | | 0.525 | | 0.7 |
-| Order | | | 1 | | 1 | | 1 | | 2 | | 1 | | 1 | | 1 | | 1 |
-| Continue? | | | Yes | | Yes | | Yes | | No | | Yes | | Yes | | No | | Yes |
+![](/Image/Calculate%20weight%20and%20sort.jpg)
 
 ### vii. Score and select alternatives	
 
