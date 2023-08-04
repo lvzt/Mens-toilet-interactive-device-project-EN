@@ -1164,60 +1164,7 @@ More related graphs are in the supplementary
 
 Another way to analyse the system behaviour is to identify system states. When switching from one state to another, we keep track of how the system changes. This step is helpful for finding unstable states during the process. The result is shown in the table below
 
-| An adult male will use the toilet (operator) | Body detection subsystem | Sound detection subsystem | Liquid detection subsystem | Data processing subsystem | Game subsystem | Display subsystem | System status |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| The adult male approaches the toilet | | | | | | | Displaying ad while waiting for people coming close |
-| `Event signal (Signal of human body)` | | | | | | | |
-| | The system detects human being nearby | | | | | | Detecting human being nearby|
-| | `Event signal (Human body detection signal)` | | | | | | |
-| | | | | The system processes the signal | | | Signal processing |
-| | | | | `Call (play)` | | | |
-| | | | | | | The system displays instructions | Displaying instruction |
-| | | | | | | _**The system can display advertisement after idling for a while**_ | |
-| | | | | | | `Call (return)` | |
-| The adult male confirms readiness by sound | | | | | | | |
-| `Event signal (Sound)` | | | | | | | |
-| | | The system detects the sound | | | | | Detecting human voice |
-| | | `Event signal (Sound detection signal)` | | | | | |
-| | | | | The system processes the sound signal | | | Signal processing |
-| | | | | `Call (display)` | | | |
-| | | | | | | The system counts down to start the game | Countdown |
-| | | | | | | _**The system can display advertisement again if no fluid detected in the end of countdown**_ | |
-| | | | | | | `Call (back)` | |
-| The adult male starts to use the toilet | | | | | | | |
-| `Event signal (Fluid)` | | | | | | | |
-| | | | The system detects fluid | | | | Detecting fluid |
-| | | | `Event signal (Fluid detection signal)` | | | | |
-| | | | | The system processes the fluid pressure signal | | | Signal processing |
-| | | | | `Call (game)` | | | |
-| | | | | | The system performs the calculation based on the signal  | | Performing calculation |
-| | | | | | `Call (calculation, display)`  | | |
-| | | | | | | The system reacts to the adult male through the game based on the calculation | Displaying the reaction on the screen |
-| | | | The system detects the direction of the fluid | | | | Detecting fluid |
-| | | | `Event signal (Fluid direction signal)` | | | | |
-| | | | | The system processes the fluid direction signal | | | Signal processing |
-| | | | | `Call (game)` | | | |
-| | | | | | The system performs the calculation based on the signal  | | Performing calculation |
-| | | | | | `Call (calculation, display)`  | | |
-| | | | | | | The system reacts to the adult male through the game based on the calculation | Displaying reaction |
-| The adult male finishes using the toilet | | | | | | | |
-| `Event signal (Fluid)` | | | | | | | |
-| | | | The system detects fluid | | | | Detecting fluid |
-| | | | `Event signal (Fluid detection signal)` | | | | |
-| | | | | The system processes the fluid pressure signal | | | Signal processing |
-| | | | | `Call (game)` | | | |
-| | | | | | The system performs the calculation based on the signal  | | Performing calculation |
-| | | | | | `Call (calculation, display)`  | | |
-| | | | | | | The system reacts to the adult male through the game based on the calculation | Displaying reaction |
-| | | | | | | `Call (back)` | |
-| The adult male keeps occupying the toilet | | | | | | | Detecting user not leaving |
-| `Event signal (not leaving)` | | | | | | | |
-| | The system detects the same person occupying the toilet | | | | | | Identifying the same user |
-| | `Event signal (same person)` | | | | | | |
-| | | | | The system processes the signal | | | Processing signal |
-| | | | | `Call (display)` | | | |
-| | | | | | | The system displays messages indicating the adult male to leave | Displaying ending message |
-| | | | | | | `Call (back)` | |
+![](/Image/Identify%20system%20states.jpg)
 
 The corresponding graph made by using IBM Rational Rhapsody is presented below
 
