@@ -978,18 +978,7 @@ Usually this step is performed in the design revision circle. Because our projec
 
 From the house of quality we get the system variable and place them together with the subsystem variable in the new house of quality matrix. The new matrix has the same column vector as the old one, but the row vector consist of all the alternatives, instead of the technical performance measure. Same as before, √√ represents the two elements are strongly positively related, √ positively related, X negatively related, XX strongly negatively related. For our project, as the selection of sound detector has been fixed with no other alternatives, the requirements 16 are removed from the new house of quality matrix, so as 21 and 23 . The results are in the table below
 
-| | | Ultrasonic detector | Infrared detector | All shapes of 2D multi-points detectors | Mini PC | PC + embedded system | Python | |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| | Trend | &#x2191; | &#x2191; | &#x2191; | &#x2191; | &#x2191; | &#x2191; | Unit | 
-| Waterproof material and related processing techniques | 70% | | | | | | | mm<sup>2</sup> |
-| The effective area of the detectors | 96% | | | XX | | | | mm<sup>2</sup> |
-| The maximum amount of detectors required | 56% | &#x2713;&#x2713; | &#x2713;&#x2713; | &#x2713;&#x2713; | | | | Piece |
-|  The maximum time it takes for starting the game | 15% | | | &#x2713;&#x2713; | &#x2713;&#x2713; | &#x2713;&#x2713; | &#x2713;&#x2713; | Second |
-| The time it takes to display the result of the game | 35% | | | | &#x2713;&#x2713; | &#x2713;&#x2713; | &#x2713;&#x2713; | Second |
-| The times a player willing to play the same game | 20% |  | | | &#x2713;&#x2713; | &#x2713;&#x2713; | &#x2713;&#x2713; | Times |
-| The choices of materials around the region of detectors | 54% | | | &#x2713;&#x2713; | | | | |
-| The integration of all the components of the device | 30% | &#x2713; | &#x2713; | | &#x2713; | X | | Box |
-| Unit for measurement | | Piece | Piece | Piece | Set | Set | Line | |
+![](/Image/Optimize%20parameters.jpg)
 
 Now is time to discuss with experts in the team extensively on specific designs, such as 3D modeling, finite element method analysis, estimating the amount of code to be written etc. When the amount of design variable is lager than the amount of requirements, the difference between the two is called design freedom. When setting one design variable, other design variables can be adjusted correspondingly according to time, cost etc. Sometimes, it's necessary to optimize different design variables according to certain constraints or limits. For some designs demos can be built to test their viability.
 
