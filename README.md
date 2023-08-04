@@ -1196,60 +1196,7 @@ Game subsystem
 
 The template is also useful for collecting other information, such as time related events or actions. It is updated and shown below
 
-| An adult male will use the toilet (operator) | Body detection subsystem | Sound detection subsystem | Liquid detection subsystem | Data processing subsystem | Game subsystem | Display subsystem | System status | Time |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| The adult male approaches the toilet | | | | | | | Displaying ad while waiting for people coming close | |
-| `Event signal (Signal of human body)` | | | | | | | | |
-| | The system detects human being nearby | | | | | | Detecting human being nearby| 1-3 seconds |
-| | `Event signal (Human body detection signal)` | | | | | | | |
-| | | | | The system processes the signal | | | Signal processing | |
-| | | | | `Call (play)` | | | | |
-| | | | | | | The system displays instructions | Displaying instruction | |
-| | | | | | | _**The system can display advertisement after idling for a while**_ | | 5 seconds |
-| | | | | | | `Call (return)` | | |
-| The adult male confirms readiness by sound | | | | | | | | |
-| `Event signal (Sound)` | | | | | | | | |
-| | | The system detects the sound | | | | | Detecting human voice | 1-3 seconds |
-| | | `Event signal (Sound detection signal)` | | | | | | |
-| | | | | The system processes the sound signal | | | Signal processing | |
-| | | | | `Call (display)` | | | | |
-| | | | | | | The system counts down to start the game | Countdown | |
-| | | | | | | _**The system can display advertisement again if no fluid detected in the end of countdown**_ | | 5 seconds |
-| | | | | | | `Call (back)` | | |
-| The adult male starts to use the toilet | | | | | | | | |
-| `Event signal (Fluid)` | | | | | | | | |
-| | | | The system detects fluid | | | | Detecting fluid | 0.5 second |
-| | | | `Event signal (Fluid detection signal)` | | | | | |
-| | | | | The system processes the fluid pressure signal | | | Signal processing | |
-| | | | | `Call (game)` | | | | |
-| | | | | | The system performs the calculation based on the signal  | | Performing calculation | |
-| | | | | | `Call (calculation, display)`  | | | |
-| | | | | | | The system reacts to the adult male through the game based on the calculation | Displaying the reaction on the screen | |
-| | | | The system detects the direction of the fluid | | | | Detecting fluid | 0.5 second |
-| | | | `Event signal (Fluid direction signal)` | | | | | |
-| | | | | The system processes the fluid direction signal | | | Signal processing | |
-| | | | | `Call (game)` | | | | |
-| | | | | | The system performs the calculation based on the signal  | | Performing calculation | |
-| | | | | | `Call (calculation, display)`  | | | |
-| | | | | | | The system reacts to the adult male through the game based on the calculation | Displaying reaction | |
-| The adult male finishes using the toilet | | | | | | | | |
-| `Event signal (Fluid)` | | | | | | | | |
-| | | | The system detects fluid | | | | Detecting fluid | 0.5 second |
-| | | | `Event signal (Fluid detection signal)` | | | | | |
-| | | | | The system processes the fluid pressure signal | | | Signal processing | |
-| | | | | `Call (game)` | | | | |
-| | | | | | The system performs the calculation based on the signal  | | Performing calculation | |
-| | | | | | `Call (calculation, display)`  | | | |
-| | | | | | | The system reacts to the adult male through the game based on the calculation | Displaying reaction | 5 seconds |
-| | | | | | | Call (back) | | |
-| The adult male keeps occupying the toilet | | | | | | | Detecting user not leaving |
-| `Event signal (not leaving)` | | | | | | | |
-| | The system detects the same person occupying the toilet | | | | | | Identifying the same user | 0.5 second |
-| | `Event signal (same person)` | | | | | | | |
-| | | | | The system processes the signal | | | Processing signal | |
-| | | | | `Call (display)` | | | | |
-| | | | | | | The system displays messages indicating the adult male to leave | Displaying ending message | |
-| | | | | | | `Call (back)` | | |
+![](/Image/Set%20targets%20for%20behaviour.jpg)
 
 ### vi. Extract functional requirements to originating requirements	
 
