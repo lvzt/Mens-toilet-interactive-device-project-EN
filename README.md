@@ -1592,22 +1592,7 @@ The result of checking the test plan for non-behavioural requests is presented i
 
 A reference matrix can be developed to check the completeness of the tests.
 
-| Test (row) application on primary request (column) | OR 1 | OR 2 | OR 3 | OR 4 | OR 5 | OR 6 | OR 7 | OR 8 | OR 9 | OR 10 | OR 13 | OR 14 | OR 15 | OR 16 | OR 17 | OR 18 | OR 19 | OR 21 | OR 22 | OR 23 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| TP 1 | | | X | X | X | X | X | X | X | | | | | | | | | | | |
-| TP 2 | X | | | | | | | | | | | | | | | | | | | | 
-| TP 3 | X | | | | | | | | | | | | | | | | | | | | 
-| TP 4 | | | | | | | | | | X | | | | | | | | | | | 
-| TP 5 | | | | | | | | | | | X | | | | | | | | | | 
-| TP 6 | | | | | | | | | | | | X | | | | | | | | | 
-| TP 7 | | | | | | | | | | | | | X | | | | | | | | 
-| TP 8 | | | | | | | | | | | | | | X | | | | | | | 
-| TP 9 | | | | | | | | | | | | | | | X | | | | | | 
-| TP 10 | | | | | | | | | | | | | | | | X | | | | | 
-| TP 11 | | | | | | | | | | | | | | | | | X | | | | 
-| TP 12 | | | | | | | | | | | | | | | | | | X | | | 
-| TP 13 | | | | | | | | | | | | | | | | | | | X | | 
-| TP 14 | | | | | | | | | | | | | | | | | | | | X | 
+![](/Image/Map%20test%20activities%20to%20system%20requirements.jpg)
 
 Here we find that OR2 (the interactive device should be able to receive instructions and display commercials) hasn't scheduled for test, which should be added.
 
