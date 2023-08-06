@@ -1318,24 +1318,7 @@ Note that the entries below the diagonal are empty, otherwise the device will fa
 
 As mentioned above, another way to describe the system behaviours is to implement the status changing matrix, which is focused on status changing and event triggering. Through analysing the function matrix, we have a better understanding on the system behaviours. Through status changing matrix, we can double-check if any system states are omitted in the previous step. As we can see from the table below, there are non-empty entries below the diagonal, which suggests that the system might be in abnormal states. 
 
-| (Event) changes system status (row) to status (column) | Display ad and wait for human being approaching | Detected human being nearby | Process body detection signal | Display instructions | Detected human sound | Process sound signal | Display countdown timer | Detected fluid pressure | Process fluid pressure signal | Perform calculation based on pressure signal | Detected fluid direction | Process fluid direction signal | Perform calculation based on direction signal | Display game result | Detected same user | Display message indicating the user should leave |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Display ad and wait for human being approaching | --- | Human being approaching | | | | | | | | | | | | | | |
-| Detected human being nearby | | --- | Send out signal to be received | | | | | | | | | | | | | |
-| Process body detection signal | | | --- | Play | | | | | | | | | | | | |
-| Display instructions | Body detection signal disappears | | | --- | | | | | | | | | | | | |
-| Detected human sound | | | | | --- | Send out signal to be received | | | | | | | | | | |
-| Process sound signal | | | | | | --- | Play | | | | | | | | | |
-| Display countdown timer | Sound signal disappears | | | | | | --- | | | | | | | | | |
-| Detected fluid pressure | | | | | | | | --- | Send out signal to be received | | | | | | | |
-| Process fluid pressure signal | | | | | | | | | --- | Transfer | | | | | | |
-| Perform calculation based on pressure signal | | | | | | | | | | --- | | | | Transfer | | |
-| Detected fluid direction | | | | | | | | | | | --- | Send out signal to be received | | | | |
-| Process fluid direction signal | | | | | | | | | | | | --- | Transfer | | | |
-| Perform calculation based on direction signal | | | | | | | | | | | | | --- | Transfer | | |
-| Display game result | Game over & User leaves | | | | | | | | | | | | | --- | Detected human being nearby | Play |
-| Detected same user | | | Send out signal to be received | | | | | | | | | | | | --- | |
-| Display message indicating the user should leave | Body detection signal disappears | | | | | | | | | | | | | | | --- |
+![](/Image/Summarize%20state%20changes.jpg)
 
 In the table above a deadlock state is marked with bold borders. Below is the state change graph. Within the square is the system status. Lines represent paths, with events indicated above them. Each route is a single loop. 
 
