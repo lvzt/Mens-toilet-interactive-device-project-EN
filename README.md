@@ -1650,22 +1650,7 @@ Failure modes are classified in three levels, according to their impact. 1. loca
 
 Next is to analyse every failure mode and find out the reason. There are many different causes. Most of them fall into four categories: human, machine(such as components failure), method(such as software error), and material. 
 
-| Failure mode index | Identified function or subsystem | Impact (a. local; b. system; c. task) | Possible causes |
-| --- | --- | --- | --- |
-| F.1 | Body detection subsystem | Body detection failure | b. Fail to detect human body or long delay; c. Task failed | Body detection unit damaged |
-| F.2 | Sound detection subsystem | Sound detection failure | b. Fail to detect sound or long delay; c. Task failed | Sound detection unit damaged |
-| F.3 | | Noise | b. Detect noise or irrelevant sound | Multiple persons make sound near the device |
-| F.4 | Fluid detection subsystem | Fluid detection failure | b. Fail to detect fluid or long delay; c. Task failed | Fluid pressure is too low |
-| F.5 | | Fluid detection unit shedding | a. Part of the urinal is not covered by fluid detectors; b. The device fails to interact with the user during the game | Adhesion failure leads to fluid detection unit shedding |
-| F.6 | | Water leakage | a. Fluid detection units short circuit; b. Some or all fluid detection unit fail; c. Task fails | Some fluid detection units are not adhere to the urinal tightly | 
-| F.7 | | Erosion | a. Water leakage through fluid detection units causes short circuits | The surface of fluid detection units is eroded |
-| F.8 | Data processing subsystem | Signal not received | a. Signal is not processed; c. Task failed | Short circuit; Interface of data processing chips damaged |
-| F.9 | | High latency during data processing | b. High latency on displaying the game result; c. Task failed | Short circuit; Interface of data processing chips damaged; Signal transmission is not stable |
-| F.10 | | Could not wake up from power saving mode | c. Task failed | System is set to the wrong time; The program set the time wrong |
-| F.11 | Game subsystem | Display wrong result | b. The game result is wrong; c. Task failed | Calculation is wrong |
-| F.12 | | High latency during the game | b. High latency on displaying the result; c. Task failed | Algorithm of the game is not optimized |
-| F.13 | Display subsystem | Display failure | b. Game result is not displayed; c. Task failed | Display is damaged; The format of the input signal is wrong |
-| F.14 | | The display mode is not correct | b. Frame displayed is distorted; c. Task failed | Display mode is set wrong; The format of the input signal is wrong |
+![](/Image/Brainstorm%20possible%20causes.jpg)
 
 #### 5. Suggest corrective actions	
 
