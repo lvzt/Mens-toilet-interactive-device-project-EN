@@ -105,11 +105,11 @@
 ## [b) Manage risks](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#b-manage-risks-1)
 ### [i. Conduct failure modes and effects analysis](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#i-conduct-failure-modes-and-effects-analysis-1)
 #### [1. Select functions](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#1-select-functions-1)
-#### [2. identify failure modes](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#2-identify-failure-modes-1)
-#### [3. assess potential impact of failure](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#3-assess-potential-impact-of-failure-1)
-#### [4. brainstorm possible causes](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#4-brainstorm-possible-causes-1)
-#### [5. suggest corrective actions](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#5-suggest-corrective-actions-1)
-#### [6. rate the severity of impact](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#6-rate-the-severity-of-impact-1)
+#### [2. Identify failure modes](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#2-Identify-failure-modes-1)
+#### [3. Assess potential impact of failure](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#3-Assess-potential-impact-of-failure-1)
+#### [4. Brainstorm possible causes](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#4-Brainstorm-possible-causes-1)
+#### [5. Suggest corrective actions](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#5-Suggest-corrective-actions-1)
+#### [6. Rate the severity of impact](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#6-Rate-the-severity-of-impact-1)
 #### [7. Rate the likelihood of causal occurrence](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#7-rate-the-likelihood-of-causal-occurrence-1)
 #### [8. Assess the risks](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#8-assess-the-risks-1)
 #### [9. Prioritize the action](https://github.com/lvzt/Mens-toilet-interactive-device-project-EN#9-prioritize-the-action-1)
@@ -1619,7 +1619,7 @@ As mentioned above, the FMEA is a bottom-up method, which starts the analysis fr
 | Game subsystem |
 | Display subsystem |
 
-#### 2. identify failure modes	
+#### 2. Identify failure modes	
 
 Here we identified failure modes for every subsystem. Note that some subsystems may have more than one failure modes.
 
@@ -1640,28 +1640,13 @@ Here we identified failure modes for every subsystem. Note that some subsystems 
 | F.13 | Display subsystem | Display failure |
 | F.14 | | The display mode is not correct |
 
-#### 3. assess potential impact of failure	
+#### 3. Assess potential impact of failure	
 
 Failure modes are classified in three levels, according to their impact. 1. local -- direct impact caused by the malfunction; 2. system -- impact on the whole system; 3. task -- impact on the environment and surrounding people. 
 
-| Failure mode index | Identified function or subsystem | Impact (a. local; b. system; c. task) |
-| --- | --- | --- |
-| F.1 | Body detection subsystem | Body detection failure | b. Fail to detect human body or long delay; c. Task failed |
-| F.2 | Sound detection subsystem | Sound detection failure | b. Fail to detect sound or long delay; c. Task failed |
-| F.3 | | Noise | b. Detect noise or irrelevant sound |
-| F.4 | Fluid detection subsystem | Fluid detection failure | b. Fail to detect fluid or long delay; c. Task failed |
-| F.5 | | Fluid detection unit shedding | a. Part of the urinal is not covered by fluid detectors; b. The device fails to interact with the user during the game |
-| F.6 | | Water leakage | a. Fluid detection units short circuit; b. Some or all fluid detection unit fail; c. Task fails |
-| F.7 | | Erosion | a. Water leakage through fluid detection units causes short circuits |
-| F.8 | Data processing subsystem | Signal not received | a. Signal is not processed; c. Task failed |
-| F.9 | | High latency during data processing | b. High latency on displaying the game result; c. Task failed |
-| F.10 | | Could not wake up from power saving mode | c. Task failed |
-| F.11 | Game subsystem | Display wrong result | b. The game result is wrong; c. Task failed |
-| F.12 | | High latency during the game | b. High latency on displaying the result; c. Task failed |
-| F.13 | Display subsystem | Display failure | b. Game result is not displayed; c. Task failed |
-| F.14 | | The display mode is not correct | b. Frame displayed is distorted; c. Task failed |
+![](/Image/Assess%20potential%20impact%20of%20failure.jpg)
 
-#### 4. brainstorm possible causes	
+#### 4. Brainstorm possible causes	
 
 Next is to analyse every failure mode and find out the reason. There are many different causes. Most of them fall into four categories: human, machine(such as components failure), method(such as software error), and material. 
 
@@ -1682,7 +1667,7 @@ Next is to analyse every failure mode and find out the reason. There are many di
 | F.13 | Display subsystem | Display failure | b. Game result is not displayed; c. Task failed | Display is damaged; The format of the input signal is wrong |
 | F.14 | | The display mode is not correct | b. Frame displayed is distorted; c. Task failed | Display mode is set wrong; The format of the input signal is wrong |
 
-#### 5. suggest corrective actions	
+#### 5. Suggest corrective actions	
 
 After finding out the causes of failures, it's time to look for corrective actions to reduce the chance of malfunctions occur. It's important to consider the timing for corrective actions. The three windows are: during design, manufacture and running. 
 
@@ -1705,7 +1690,7 @@ After finding out the causes of failures, it's time to look for corrective actio
 
 Although we have gotten the result of the analysis, it doesn't mean the concerning systems have to be modified. We need to estimate the cost and evaluate the benefit for the action.
 
-#### 6. rate the severity of impact
+#### 6. Rate the severity of impact
 
 Next we need to estimate the probabilities of the failures occur and the damage they may cause. The table below shows the rate of the severity of impact.
 
