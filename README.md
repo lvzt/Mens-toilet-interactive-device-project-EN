@@ -1656,22 +1656,7 @@ Next is to analyse every failure mode and find out the reason. There are many di
 
 After finding out the causes of failures, it's time to look for corrective actions to reduce the chance of malfunctions occur. It's important to consider the timing for corrective actions. The three windows are: during design, manufacture and running. 
 
-| Failure mode index | Identified function or subsystem | Impact (a. local; b. system; c. task) | Possible causes | Corrective actions (a. design; b. manufacture; c. running) |
-| --- | --- | --- | --- | --- |
-| F.1 | Body detection subsystem | Body detection failure | b. Fail to detect human body or long delay; c. Task failed | Body detection unit damaged | a. add a protection enclosure for the body detection unit; b. use better quality body detector |
-| F.2 | Sound detection subsystem | Sound detection failure | b. Fail to detect sound or long delay; c. Task failed | Sound detection unit damaged | a. add a protection enclosure for the sound detection unit; b. use a better sound detector |
-| F.3 | | Noise | b. Detect noise or irrelevant sound | Multiple persons make sound near the device | a. add electric filter or decease the detection range; c. active only when less people are nearby |
-| F.4 | Fluid detection subsystem | Fluid detection failure | b. Fail to detect fluid or long delay; c. Task failed | Fluid pressure is too low | a. decrease the thickness of the waterproof layer; b. use better fluid detector |
-| F.5 | | Fluid detection unit shedding | a. Part of the urinal is not covered by fluid detectors; b. The device fails to interact with the user during the game | Adhesion failure leads to fluid detection unit shedding | b. use better waterproof glue |
-| F.6 | | Water leakage | a. Fluid detection units short circuit; b. Some or all fluid detection unit fail; c. Task fails | Some fluid detection units are not adhere to the urinal tightly | b. make sure the waterproof glue is uniformly applied |
-| F.7 | | Erosion | a. Water leakage through fluid detection units causes short circuits | The surface of fluid detection units is eroded | b. use corrosion protective waterproof layer |
-| F.8 | Data processing subsystem | Signal not received | a. Signal is not processed; c. Task failed | Short circuit; Interface of data processing chips damaged | b. use better wire |
-| F.9 | | High latency during data processing | b. High latency on displaying the game result; c. Task failed | Short circuit; Interface of data processing chips damaged; Signal transmission is not stable | b. add extra protection at the interface |
-| F.10 | | Could not wake up from power saving mode | c. Task failed | System is set to the wrong time; The program set the time wrong | b. adjust the time during installation; b. add an API so the time can be modified |
-| F.11 | Game subsystem | Display wrong result | b. The game result is wrong; c. Task failed | Calculation is wrong | b. make the game simpler |
-| F.12 | | High latency during the game | b. High latency on displaying the result; c. Task failed | Algorithm of the game is not optimized | b. optimize the algorithm |
-| F.13 | Display subsystem | Display failure | b. Game result is not displayed; c. Task failed | Display is damaged; The format of the input signal is wrong | a. replace the display so it could match the data processing unit; b. use better display connected with waterproof wires |
-| F.14 | | The display mode is not correct | b. Frame displayed is distorted; c. Task failed | Display mode is set wrong; The format of the input signal is wrong | b. use the correct format |
+![](/Image/Suggest%20corrective%20actions.jpg)
 
 Although we have gotten the result of the analysis, it doesn't mean the concerning systems have to be modified. We need to estimate the cost and evaluate the benefit for the action.
 
@@ -1720,6 +1705,7 @@ The last step is to prioritize the action. It's better to find solutions for ris
 
 For our project, the priorities are listed in the table below
 
+![](/Image/Prioritize%20the%20action.jpg)
 | Failure mode index | Identified function or subsystem | Impact (a. local; b. system; c. task) | Possible causes | Corrective actions (a. design; b. manufacture; c. running) | Impact level | Likelihood | Risk factor | Action priority |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | F.1 | Body detection subsystem | Body detection failure | b. Fail to detect human body or long delay; c. Task failed | Body detection unit damaged | a. add a protection enclosure for the body detection unit; b. use better quality body detector | 8 | 4 | 32 | Medium |
